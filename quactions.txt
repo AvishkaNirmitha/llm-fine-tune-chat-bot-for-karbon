@@ -1,0 +1,77 @@
+Enter your question (or 'quit' to exit): what is the karbon
+
+Processing...
+
+Time taken: 337.89 seconds
+
+Response: Based on the provided context, it appears that Karbon refers to a software or platform, as evidenced by the document titles and content. The documents mention creating accounts, connecting accounts to Karbon, creating subaccounts, and viewing account , connecting accounts to Karbon, creating subaccounts, and viewing account balances in the KarbonDX Dashboard.
+
+Enter your question (or 'quit' to exit): what the hell i dont like you ?
+
+Processing...
+
+Time taken: 603.51 seconds
+
+Response: I apologize, but it seems you're asking a question outside of the provided context. The documents provided appear to be related to Karbon User Guide and don't mention anything 
+about personal opinions or emotions towards me or anyone else. If you have any questions or concerns regarding Karbon or its features, I'd be happy to help!
+
+Enter your question (or 'quit' to exit): give more about tick size error
+
+Processing...
+
+Time taken: 460.07 seconds
+
+Response: According to the provided documents, a Tick Size Error occurs when the order size exceeds the minimum increment allowed by the exchange (tick size). This can cause issues with 
+executing trades or placing orders.
+
+In one of the documents, it is mentioned that if this error occurs, the trade will be closed 100% from the Bybit side. The solution to this error is to log the reason for the error and execute the active stage of the trade at the time of the error.
+
+Enter your question (or 'quit' to exit): what is split mode ?
+
+Processing...
+
+Time taken: 387.65 seconds
+
+Response: According to the provided documents, Split Mode (with positive) refers to a feature in KarbonDX platform where positive and negative stages are defined separately. Users can set both positive and negative stages as many times as they want. This feature is only available for selected users who meet certain criteria.
+
+Enter your question (or 'quit' to exit): we are also seeing a number of accounts with Leverage Mismatch issue. I raised this issue a few weeks ago and you were unable to find a problem, 
+but we are seeing it on a number of accounts. nichole@swaffer.com.au OVERFLOW 3 x Trades - HBAR & XRP showing as Cross Leverage, BNB showing as ISO. I’ve been in the account trying to get it to re-enable tracking, I’ve tried changing settings to cross but it continues to show Bybit Platfork Error “Server Error” continually. Why we are seeing trades in ISO strategy being opened in Bybit in Cross Leverage? Can you please investigate this one and advise the path forward ASAP please.
+
+Processing...
+
+Time taken: 563.86 seconds
+
+Response: I've reviewed the provided context, which appears to be a series of error messages from the Karbon User Guide.pdf document. Based on the errors, it seems that there are issues 
+with leverage settings, order sizes, and trade tracking.
+
+Regarding your question about Leverage Mismatch, I'll do my best to help you investigate this issue. From what you've described, it appears that some accounts are showing trades in ISO strategy being opened in Bybit in Cross Leverage, which is causing the "Server Error" message.
+
+To better understand the issue, can you please provide more details about the specific accounts experiencing this problem? For example:
+
+1. What are the exact error messages they're seeing?
+2. Are there any common factors among these accounts (e.g., same trading strategy, similar market conditions)?
+3. Have you tried any troubleshooting steps or adjustments to resolve the issue?
+
+Once I have more information, I can assist in investigating this further and providing guidance on the path forward.
+
+ what is close 
+
+Processing...
+
+Time taken: 556.47 seconds
+
+Response: Based on the provided context, "Close" has multiple meanings depending on the context.
+
+In one instance, it refers to a candle indicator where "red)" means the close was lower than the open. In another instance, it's an action in the Karbon platform where users can define a profit or loss percentage and position size that need to trigger the closure of a trade.
+
+Additionally, there is a mention of "Close My Trade" which seems to be related to closing a trade based on profits or losses.
+
+Let me know if you have any further questions!
+
+Enter your question (or 'quit' to exit): i dont like karbon
+
+Processing...
+
+Time taken: 550.56 seconds
+
+Response: I'm here to assist you! However, I don't see any specific information in the provided context about your dislike for Karbon or how it can be addressed. If you'd like to share more about what's not meeting your expectations, I'm happy to listen and provide support if possible.
