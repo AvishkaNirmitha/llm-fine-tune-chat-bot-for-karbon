@@ -107,5 +107,58 @@ def create_message():
 
     return jsonify(response_data), 201
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
+
+
+
+@app.route('/api/reactions', methods=['POST'])
+@limiter.limit("25 per minute", error_message="Too many requests, slow down!")
+def create_reaction():
+    try:
+        # Create reactions folder if it doesn't exist
+        if not os.path.exists('reactions'):
+            os.makedirs('reactions')
+        
+        # Fixed filename for all reactions
+        filename = 'reactions/reactions.json'
+        
+        # Get the payload from request
+        payload = request.get_json()
+        
+        # Add timestamp to payload
+        payload['timestamp'] = datetime.now().isoformat()
+        
+        # Read existing data or create new array
+        if os.path.exists(filename):
+            try:
+                with open(filename, 'r') as f:
+                    data = json.load(f)
+                    if not isinstance(data, list):
+                        data = [data]
+            except json.JSONDecodeError:
+                data = []
+        else:
+            data = []
+        
+        # Append new payload to array
+        data.append(payload)
+        
+        # Write updated data back to file
+        with open(filename, 'w') as f:
+            json.dump(data, f, indent=2)
+        
+        return jsonify({
+            "message": "Reaction saved successfully",
+            "timestamp": payload['timestamp']
+        }), 201
+        
+    except Exception as e:
+        return jsonify({
+            "error": "Failed to save reaction",
+            "message": str(e)
+        }), 500
+
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000,debug=True)  # Replace 5000 with your desired port if necessary
