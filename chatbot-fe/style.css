@@ -252,7 +252,6 @@ body {
   border-radius: 3px;
 }
 
-
 .chat-icon {
   position: fixed;
   bottom: 20px;
@@ -287,4 +286,157 @@ body {
 .chat-container.open {
   opacity: 1;
   transform: translateY(0); /* Move into place */
+}
+
+/* Reaction buttons styling */
+.message-footer {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.reaction-button {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  background: white;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  gap: 6px;
+}
+
+.reaction-button:hover {
+  background: #f5f5f5;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reaction-button.like {
+  border-color: #e3f2fd;
+}
+
+.reaction-button.unlike {
+  border-color: #fbe9e7;
+}
+
+.reaction-button.like.active {
+  background: #e3f2fd;
+  color: #1976d2;
+  border-color: #1976d2;
+}
+
+.reaction-button.unlike.active {
+  background: #fbe9e7;
+  color: #d32f2f;
+  border-color: #d32f2f;
+}
+
+.reaction-button::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.reaction-button.like::before {
+  content: "\f164"; /* Font Awesome thumbs-up icon */
+}
+
+.reaction-button.unlike::before {
+  content: "\f165"; /* Font Awesome thumbs-down icon */
+}
+
+.reaction-button:active {
+  transform: scale(0.95);
+}
+
+.reaction-button.active::before {
+  transform: scale(1.1);
+}
+
+/* Add pulse animation for active state */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.reaction-button.active {
+  animation: pulse 0.3s ease-in-out;
+}
+
+/* Loader container */
+.loader-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.loader-container.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Loader animation */
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #3498db;
+  position: relative;
+  animation: spin 1s linear infinite;
+}
+
+.loader::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-bottom: 3px solid #3498db;
+  animation: spin 0.75s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add this to your existing chat-container class */
+.chat-container {
+  position: relative;
+}
+
+/* Ensure messages are not clickable during loading */
+.chat-container.loading .chat-messages {
+  pointer-events: none;
 }

@@ -358,5 +358,349 @@
     "userMessage": "wtf",
     "botResponse": "It seems you've encountered a strange or unexpected situation. However, I need a bit more context to provide a helpful answer. Can you please clarify or rephrase your question? What were you trying to do, and what happened that surprised you?",
     "timestamp": "2025-01-20T15:05:06.318154"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737434084132",
+    "reaction": 1,
+    "userMessage": "hello",
+    "botResponse": "Hello. What would you like to know about the Karbon User Guide?",
+    "timestamp": "2025-01-21T10:04:46.362255"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737437784852",
+    "reaction": 1,
+    "userMessage": "dsfdsfd",
+    "botResponse": "It seems like you didn't provide a question. Could you please provide a question related to the context, and I'll do my best to assist you?",
+    "timestamp": "2025-01-21T11:07:32.294506"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737437784852",
+    "reaction": 0,
+    "userMessage": "dsfdsfd",
+    "botResponse": "It seems like you didn't provide a question. Could you please provide a question related to the context, and I'll do my best to assist you?",
+    "timestamp": "2025-01-21T11:07:33.531706"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737437784852",
+    "reaction": 1,
+    "userMessage": "dsfdsfd",
+    "botResponse": "It seems like you didn't provide a question. Could you please provide a question related to the context, and I'll do my best to assist you?",
+    "timestamp": "2025-01-21T11:07:34.459282"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737437784852",
+    "reaction": 0,
+    "userMessage": "dsfdsfd",
+    "botResponse": "It seems like you didn't provide a question. Could you please provide a question related to the context, and I'll do my best to assist you?",
+    "timestamp": "2025-01-21T11:07:35.187887"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737437784852",
+    "reaction": 1,
+    "userMessage": "dsfdsfd",
+    "botResponse": "It seems like you didn't provide a question. Could you please provide a question related to the context, and I'll do my best to assist you?",
+    "timestamp": "2025-01-21T11:07:35.542896"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737437784852",
+    "reaction": 0,
+    "userMessage": "dsfdsfd",
+    "botResponse": "It seems like you didn't provide a question. Could you please provide a question related to the context, and I'll do my best to assist you?",
+    "timestamp": "2025-01-21T11:07:36.986496"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737437784852",
+    "reaction": 1,
+    "userMessage": "dsfdsfd",
+    "botResponse": "It seems like you didn't provide a question. Could you please provide a question related to the context, and I'll do my best to assist you?",
+    "timestamp": "2025-01-21T11:07:37.363342"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438674331",
+    "reaction": 1,
+    "userMessage": "sdgsfg",
+    "botResponse": "I'm here to assist you, but I don't see a related question. Could you please provide a question based on the given context?",
+    "timestamp": "2025-01-21T11:21:15.414008"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438677333",
+    "reaction": 1,
+    "userMessage": "sfgf",
+    "botResponse": "It appears you've provided a large amount of text related to the Karbon User Guide but didn't ask a specific question. To provide a helpful response, I'd need a clear and specific question related to the guide.",
+    "timestamp": "2025-01-21T11:21:18.643059"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438677333",
+    "reaction": 0,
+    "userMessage": "sfgf",
+    "botResponse": "It appears you've provided a large amount of text related to the Karbon User Guide but didn't ask a specific question. To provide a helpful response, I'd need a clear and specific question related to the guide.",
+    "timestamp": "2025-01-21T11:21:19.539370"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438677333",
+    "reaction": 1,
+    "userMessage": "sfgf",
+    "botResponse": "It appears you've provided a large amount of text related to the Karbon User Guide but didn't ask a specific question. To provide a helpful response, I'd need a clear and specific question related to the guide.",
+    "timestamp": "2025-01-21T11:21:20.726399"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438677333",
+    "reaction": 0,
+    "userMessage": "sfgf",
+    "botResponse": "It appears you've provided a large amount of text related to the Karbon User Guide but didn't ask a specific question. To provide a helpful response, I'd need a clear and specific question related to the guide.",
+    "timestamp": "2025-01-21T11:21:21.162737"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438677333",
+    "reaction": 1,
+    "userMessage": "sfgf",
+    "botResponse": "It appears you've provided a large amount of text related to the Karbon User Guide but didn't ask a specific question. To provide a helpful response, I'd need a clear and specific question related to the guide.",
+    "timestamp": "2025-01-21T11:21:21.514972"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438677333",
+    "reaction": 0,
+    "userMessage": "sfgf",
+    "botResponse": "It appears you've provided a large amount of text related to the Karbon User Guide but didn't ask a specific question. To provide a helpful response, I'd need a clear and specific question related to the guide.",
+    "timestamp": "2025-01-21T11:21:21.878739"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438677333",
+    "reaction": 1,
+    "userMessage": "sfgf",
+    "botResponse": "It appears you've provided a large amount of text related to the Karbon User Guide but didn't ask a specific question. To provide a helpful response, I'd need a clear and specific question related to the guide.",
+    "timestamp": "2025-01-21T11:21:22.413196"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438694724",
+    "reaction": 1,
+    "userMessage": "dsfdg",
+    "botResponse": "It seems that you haven't provided a question yet and only a long context about Karbon User Guide. I'm happy to assist you if you could provide the actual question.",
+    "timestamp": "2025-01-21T11:21:36.861172"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438694724",
+    "reaction": 0,
+    "userMessage": "dsfdg",
+    "botResponse": "It seems that you haven't provided a question yet and only a long context about Karbon User Guide. I'm happy to assist you if you could provide the actual question.",
+    "timestamp": "2025-01-21T11:21:38.135872"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438694724",
+    "reaction": 1,
+    "userMessage": "dsfdg",
+    "botResponse": "It seems that you haven't provided a question yet and only a long context about Karbon User Guide. I'm happy to assist you if you could provide the actual question.",
+    "timestamp": "2025-01-21T11:21:38.533399"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438710979",
+    "reaction": 1,
+    "userMessage": "tick size error",
+    "botResponse": "The \"tick size error\" occurs when the minimum close/open quantity in a specific trading pair is not met due to the platform's tick size requirements. For example, in the provided context, the tick size for the BTC pair is 0.001 BTC and an attempt was made to close the trade with a size of 0.0005 BTC, which was rounded up to 0.001 BTC by the platform. To resolve the issue, ensure that the trade size meets the minimum tick size requirement for the specific trading pair.",
+    "timestamp": "2025-01-21T11:21:59.637223"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438726626",
+    "reaction": 0,
+    "userMessage": "sdgffg",
+    "botResponse": "I'm happy to help, but it seems like you haven't asked a question about the provided context. Could you please provide a valid question related to the Karbon User Guide?",
+    "timestamp": "2025-01-21T11:22:07.724350"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438749632",
+    "reaction": 0,
+    "userMessage": "heelo",
+    "botResponse": "It seems like you're not asking a specific question, but rather saying \"heelo\". If you need assistance with something related to the Karbon User Guide, please provide a clear question so I can help you better.",
+    "timestamp": "2025-01-21T11:22:54.579615"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438749632",
+    "reaction": 1,
+    "userMessage": "heelo",
+    "botResponse": "It seems like you're not asking a specific question, but rather saying \"heelo\". If you need assistance with something related to the Karbon User Guide, please provide a clear question so I can help you better.",
+    "timestamp": "2025-01-21T11:22:55.529947"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438749632",
+    "reaction": 0,
+    "userMessage": "heelo",
+    "botResponse": "It seems like you're not asking a specific question, but rather saying \"heelo\". If you need assistance with something related to the Karbon User Guide, please provide a clear question so I can help you better.",
+    "timestamp": "2025-01-21T11:22:56.018009"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438749632",
+    "reaction": 1,
+    "userMessage": "heelo",
+    "botResponse": "It seems like you're not asking a specific question, but rather saying \"heelo\". If you need assistance with something related to the Karbon User Guide, please provide a clear question so I can help you better.",
+    "timestamp": "2025-01-21T11:23:29.736088"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438749632",
+    "reaction": 0,
+    "userMessage": "heelo",
+    "botResponse": "It seems like you're not asking a specific question, but rather saying \"heelo\". If you need assistance with something related to the Karbon User Guide, please provide a clear question so I can help you better.",
+    "timestamp": "2025-01-21T11:23:30.136353"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438749632",
+    "reaction": 1,
+    "userMessage": "heelo",
+    "botResponse": "It seems like you're not asking a specific question, but rather saying \"heelo\". If you need assistance with something related to the Karbon User Guide, please provide a clear question so I can help you better.",
+    "timestamp": "2025-01-21T11:23:30.434424"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737438749632",
+    "reaction": 0,
+    "userMessage": "heelo",
+    "botResponse": "It seems like you're not asking a specific question, but rather saying \"heelo\". If you need assistance with something related to the Karbon User Guide, please provide a clear question so I can help you better.",
+    "timestamp": "2025-01-21T11:23:30.695063"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439199021",
+    "reaction": 1,
+    "userMessage": "hello",
+    "botResponse": "It seems you have a Karbon User Guide document with various sections and pages. Before we proceed, can you please clarify what specific information or assistance you need from this document?",
+    "timestamp": "2025-01-21T11:30:00.695090"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439199021",
+    "reaction": 0,
+    "userMessage": "hello",
+    "botResponse": "It seems you have a Karbon User Guide document with various sections and pages. Before we proceed, can you please clarify what specific information or assistance you need from this document?",
+    "timestamp": "2025-01-21T11:30:01.152836"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439199021",
+    "reaction": 1,
+    "userMessage": "hello",
+    "botResponse": "It seems you have a Karbon User Guide document with various sections and pages. Before we proceed, can you please clarify what specific information or assistance you need from this document?",
+    "timestamp": "2025-01-21T11:30:02.030832"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439199021",
+    "reaction": 0,
+    "userMessage": "hello",
+    "botResponse": "It seems you have a Karbon User Guide document with various sections and pages. Before we proceed, can you please clarify what specific information or assistance you need from this document?",
+    "timestamp": "2025-01-21T11:30:02.350834"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439199021",
+    "reaction": 1,
+    "userMessage": "hello",
+    "botResponse": "It seems you have a Karbon User Guide document with various sections and pages. Before we proceed, can you please clarify what specific information or assistance you need from this document?",
+    "timestamp": "2025-01-21T11:30:06.451109"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439199021",
+    "reaction": 0,
+    "userMessage": "hello",
+    "botResponse": "It seems you have a Karbon User Guide document with various sections and pages. Before we proceed, can you please clarify what specific information or assistance you need from this document?",
+    "timestamp": "2025-01-21T11:30:11.253175"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439196071",
+    "reaction": 0,
+    "userMessage": "fgf",
+    "botResponse": "It seems that you haven't asked a question yet. Could you please rephrase or ask a specific question related to the provided context, and I'll be happy to assist you?",
+    "timestamp": "2025-01-21T11:30:17.914248"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439196071",
+    "reaction": 1,
+    "userMessage": "fgf",
+    "botResponse": "It seems that you haven't asked a question yet. Could you please rephrase or ask a specific question related to the provided context, and I'll be happy to assist you?",
+    "timestamp": "2025-01-21T11:30:18.690863"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439196071",
+    "reaction": 0,
+    "userMessage": "fgf",
+    "botResponse": "It seems that you haven't asked a question yet. Could you please rephrase or ask a specific question related to the provided context, and I'll be happy to assist you?",
+    "timestamp": "2025-01-21T11:30:20.445735"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439196071",
+    "reaction": 1,
+    "userMessage": "fgf",
+    "botResponse": "It seems that you haven't asked a question yet. Could you please rephrase or ask a specific question related to the provided context, and I'll be happy to assist you?",
+    "timestamp": "2025-01-21T11:30:21.058734"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439878722",
+    "reaction": 1,
+    "userMessage": "hello",
+    "botResponse": "It looks like you're starting to explore the Karbon User Guide. What specific topic would you like to know more about?",
+    "timestamp": "2025-01-21T11:41:19.624268"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439878722",
+    "reaction": 0,
+    "userMessage": "hello",
+    "botResponse": "It looks like you're starting to explore the Karbon User Guide. What specific topic would you like to know more about?",
+    "timestamp": "2025-01-21T11:41:20.622391"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737439878722",
+    "reaction": 1,
+    "userMessage": "hello",
+    "botResponse": "It looks like you're starting to explore the Karbon User Guide. What specific topic would you like to know more about?",
+    "timestamp": "2025-01-21T11:41:21.039513"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737447811611",
+    "reaction": 1,
+    "userMessage": "what the hell",
+    "botResponse": "It seems like you are trying to ask a question, but it's not clear what you are asking. \n\nSince we are in the context of the Karbon User Guide, I'm going to make an educated guess that you are looking for information related to Karbon. \n\nHowever, to provide a more accurate answer, could you please rephrase your question or provide more context about what you are trying to ask?",
+    "timestamp": "2025-01-21T13:53:36.667355"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1737451254029",
+    "reaction": 1,
+    "userMessage": "what are the avaiable user type sin karbon  ?",
+    "botResponse": "Based on the given context, the available user types in Karbon are:\n\n1. Default\n2. Admin\n3. Lab User\n4. Elite User\n5. Pro User\n6. Pro + User",
+    "timestamp": "2025-01-21T14:52:19.853554"
   }
 ]
