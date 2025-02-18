@@ -16,7 +16,7 @@ body {
 
 .chat-container {
   width: 100%;
-  max-width: 450px;
+  max-width: 84vw;
   background: rgba(255, 255, 255, 0.95);
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -267,11 +267,11 @@ body {
 }
 
 .chat-container {
-  display: none; /* Keep it hidden initially */
+  display: none; 
   position: fixed;
-  bottom: 120px; /* Move it above the chat icon */
+  /* bottom: 120px;  */
   right: 20px;
-  max-width: 450px;
+  max-width: 84vw;
   background: rgba(255, 255, 255, 0.95);
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);

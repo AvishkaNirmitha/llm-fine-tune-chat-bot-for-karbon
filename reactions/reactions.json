@@ -718,5 +718,45 @@
     "userMessage": "rgegf",
     "botResponse": "It seems like there is no actual question to answer. The text provided appears to be a set of documents about the Karbon User Guide, but it doesn't contain a specific question to respond to. Could you please provide the actual question you would like me to answer? I'll be happy to help once I understand the context better.",
     "timestamp": "2025-02-18T08:39:03.509305"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739849364526",
+    "reaction": 1,
+    "userMessage": "hello",
+    "botResponse": "You've started a conversation. What would you like assistance with, specifically?",
+    "timestamp": "2025-02-18T08:59:25.733488"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739849364526",
+    "reaction": 0,
+    "userMessage": "hello",
+    "botResponse": "You've started a conversation. What would you like assistance with, specifically?",
+    "timestamp": "2025-02-18T08:59:26.721949"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739849364526",
+    "reaction": 1,
+    "userMessage": "hello",
+    "botResponse": "You've started a conversation. What would you like assistance with, specifically?",
+    "timestamp": "2025-02-18T08:59:27.233045"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739849449927",
+    "reaction": 1,
+    "userMessage": "hello",
+    "botResponse": "You've initiated our conversation. I'm here to assist you. Please provide more context or a specific question, and I'll do my best to help.",
+    "timestamp": "2025-02-18T09:00:50.773243"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739849449927",
+    "reaction": 0,
+    "userMessage": "hello",
+    "botResponse": "You've initiated our conversation. I'm here to assist you. Please provide more context or a specific question, and I'll do my best to help.",
+    "timestamp": "2025-02-18T09:00:54.219419"
   }
 ]

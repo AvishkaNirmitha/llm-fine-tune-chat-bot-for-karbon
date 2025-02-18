@@ -110,8 +110,8 @@ def create_message():
   
 
     # Creating a thread
-    # thredd = threading.Thread(target=save_request_data,args=(request_payload, response_data))
-    # thredd.start()
+    thredd = threading.Thread(target=save_request_data,args=(request_payload, response_data))
+    thredd.start()
 
    
 
