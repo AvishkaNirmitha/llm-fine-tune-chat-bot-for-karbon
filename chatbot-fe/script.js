@@ -90,7 +90,7 @@ function showTypingIndicator() {
 async function handleReaction(messageId, reaction, userMessage, botResponse) {
   try {
     showLoader();
-    const API_URL = "http://192.168.1.30:5000/api/reactions";
+    const API_URL = "http://192.168.1.16:5000/api/reactions";
     const response = await fetch(API_URL, {
       method: "POST",
       headers: {
@@ -132,7 +132,7 @@ async function sendMessage() {
       // showLoader();
       const typingIndicator = showTypingIndicator();
 
-      const API_URL = "http://192.168.1.30:5000/api/messages";
+      const API_URL = "http://192.168.1.16:5000/api/messages";
       const response = await fetch(API_URL, {
         method: "POST",
         headers: {

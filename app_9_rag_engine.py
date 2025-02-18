@@ -67,7 +67,7 @@ class RAGQueryEngine:
     def setup_chain(self):
         # 1. PDF Loading
         data = []
-        loader = PyPDFLoader("Karbon User Guide.pdf")
+        loader = PyPDFLoader("C:\\Menuka_Changers\\Testing_PDF's\\1.pdf")
         data.extend(loader.load())
 
         # 2. Document Splitting
@@ -88,7 +88,7 @@ class RAGQueryEngine:
         # 6. Initialize Llama 3 through Groq
         self.llm = ChatGroq(
             temperature=0.8,
-            groq_api_key=os.getenv('GROQ_API_KEY'),
+            groq_api_key=os.getenv('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'),
             model_name="llama-3.1-8b-instant"
         )
 

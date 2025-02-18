@@ -232,5 +232,629 @@
       "timing": 1.626849889755249,
       "context": "User\nResponsible for implementing and maintaining security services, such as adding users, building profiles, or managing\ngeneral site administration\nLab UserThis is another existing user type. able to add strategies to the system\nElite UserAuto execution subscribe and account balance 1000USDT\nPro User Not defined yet\nPro + UserNot defined yet\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 3/33\nIntroduction\n1.1.Purpose\nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades to be executed\nautomatically and requiring minimal human intervention. This platform could potentially assist in closing trades automatically when they\nreach a profitable point. This streamlined approach ensures a user-friendly experience that stands out from traditional trading platforms\n1.2.What is Trading\nHome\nBrief introduction to Karbon UI\nWelcome Message & Links\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 5/33"
     }
+  },
+  {
+    "timestamp": "2025-02-18T10:36:35.870841",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "39",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hi"
+      },
+      "timestamp": "2025-02-18T10:36:33.776306"
+    },
+    "response": {
+      "answer": "It seems like you haven't asked a specific question related to the provided context. Could you please ask a question regarding the trading platform or technical analysis, and I'll do my best to assist you?",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 236,
+        "prompt_tokens": 280,
+        "response_tokens": 40,
+        "total_tokens": 320,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.092543601989746,
+      "context": "Introduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\nA candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of \na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range  \n\u2022 The wick, or shadow, that indicates the intra-day high and low  \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price\nblue. This indicates neutral buy/sell pressure. 8 Use the color changes to see if there is more buying or selling to \npinpoint reversals and understand current market buying. Wait to enter or exit positions until the candles turn the \nopposite color."
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:36:51.993713",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "41",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hi\\"
+      },
+      "timestamp": "2025-02-18T10:36:50.883004"
+    },
+    "response": {
+      "answer": "It seems that you didn't ask a specific question. Could you please provide more context or a specific question about the documents provided? I'll do my best to assist you.",
+      "token_info": {
+        "question_tokens": 2,
+        "context_tokens": 262,
+        "prompt_tokens": 308,
+        "response_tokens": 35,
+        "total_tokens": 343,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.1097092628479004,
+      "context": "Introduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\n1.6. How does Trading Work \nWhen trading, the user profit if the market price moves in the same direction as the user\u2019s speculation; however, if it \ntakes the opposite direction, the user incur a loss. It\u2019s important to note that trading is inherently risky and could lose \nmore than expected if don\u2019t take the appropriate risk management steps. Trading happens between two parties and\nA candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of \na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range  \n\u2022 The wick, or shadow, that indicates the intra-day high and low  \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:38:45.825029",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "39",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hi"
+      },
+      "timestamp": "2025-02-18T10:38:44.123008"
+    },
+    "response": {
+      "answer": "I'm ready to assist you. However, I noticed that you haven't asked a specific question yet. Please go ahead and ask, and I'll do my best to provide a helpful answer based on the provided context.",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 236,
+        "prompt_tokens": 280,
+        "response_tokens": 44,
+        "total_tokens": 324,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.7004940509796143,
+      "context": "Introduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\nA candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of \na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range  \n\u2022 The wick, or shadow, that indicates the intra-day high and low  \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price\nblue. This indicates neutral buy/sell pressure. 8 Use the color changes to see if there is more buying or selling to \npinpoint reversals and understand current market buying. Wait to enter or exit positions until the candles turn the \nopposite color."
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:39:05.433515",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "39",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hi"
+      },
+      "timestamp": "2025-02-18T10:39:03.214889"
+    },
+    "response": {
+      "answer": "However, I need a bit more information to assist you accurately. Could you please provide a question related to the given context? I'll do my best to give you a concise and accurate answer.",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 236,
+        "prompt_tokens": 280,
+        "response_tokens": 39,
+        "total_tokens": 319,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.216644763946533,
+      "context": "Introduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\nA candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of \na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range  \n\u2022 The wick, or shadow, that indicates the intra-day high and low  \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price\nblue. This indicates neutral buy/sell pressure. 8 Use the color changes to see if there is more buying or selling to \npinpoint reversals and understand current market buying. Wait to enter or exit positions until the candles turn the \nopposite color."
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:39:09.425056",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "44",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "asdasdd"
+      },
+      "timestamp": "2025-02-18T10:39:08.291679"
+    },
+    "response": {
+      "answer": "It seems you haven't asked a question yet. Please provide a relevant question based on the given context, and I'll do my best to assist you.",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 206,
+        "prompt_tokens": 253,
+        "response_tokens": 31,
+        "total_tokens": 284,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.1323738098144531,
+      "context": "increase, while a red (or black) body shows a price decrease \nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance \nlevels. There are a great many candlestick patterns that indicate an opportunity within a market \u2013 some provide \ninsight into the balance between buying and selling pressures, while others identify continuation patterns or market\nblue. This indicates neutral buy/sell pressure. 8 Use the color changes to see if there is more buying or selling to \npinpoint reversals and understand current market buying. Wait to enter or exit positions until the candles turn the \nopposite color.\n1.6. How does Trading Work \nWhen trading, the user profit if the market price moves in the same direction as the user\u2019s speculation; however, if it \ntakes the opposite direction, the user incur a loss. It\u2019s important to note that trading is inherently risky and could lose \nmore than expected if don\u2019t take the appropriate risk management steps. Trading happens between two parties and"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:39:15.277809",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "52",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "adsadsasdasdasd"
+      },
+      "timestamp": "2025-02-18T10:39:13.607933"
+    },
+    "response": {
+      "answer": "It seems like you didn't ask a question related to the context provided. Would you like to ask a specific question about the trading platform, candlestick patterns, or the roles of a trader and investor in the context of the provided documents?",
+      "token_info": {
+        "question_tokens": 6,
+        "context_tokens": 257,
+        "prompt_tokens": 307,
+        "response_tokens": 48,
+        "total_tokens": 355,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.6688768863677979,
+      "context": "Introduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\nincrease, while a red (or black) body shows a price decrease \nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance \nlevels. There are a great many candlestick patterns that indicate an opportunity within a market \u2013 some provide \ninsight into the balance between buying and selling pressures, while others identify continuation patterns or market\nA trader is a person who gets involved in buying and selling a financial asset in any financial market. He or she can \nbuy or sell either for himself/herself or on behalf of another individual or institution. The main difference between an \ninvestor and a trader is the duration for which he or she holds on to the asset. \n A trader is a person who engages in the short-term purchasing and selling of equity either for an institution or for \nthemselves. \n1.3. What is a Candlestick"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:39:18.325581",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "46",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "adsasdasd"
+      },
+      "timestamp": "2025-02-18T10:39:17.594958"
+    },
+    "response": {
+      "answer": "I don't see a relevant question related to the context provided. Can you please rephrase or ask a specific question related to the given documents? I'll be happy to assist you.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 230,
+        "prompt_tokens": 278,
+        "response_tokens": 37,
+        "total_tokens": 315,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 0.7306230068206787,
+      "context": "Introduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\n1.6. How does Trading Work \nWhen trading, the user profit if the market price moves in the same direction as the user\u2019s speculation; however, if it \ntakes the opposite direction, the user incur a loss. It\u2019s important to note that trading is inherently risky and could lose \nmore than expected if don\u2019t take the appropriate risk management steps. Trading happens between two parties and\nincrease, while a red (or black) body shows a price decrease \nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance \nlevels. There are a great many candlestick patterns that indicate an opportunity within a market \u2013 some provide \ninsight into the balance between buying and selling pressures, while others identify continuation patterns or market"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:50:44.551164",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "41",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "iokl"
+      },
+      "timestamp": "2025-02-18T10:50:41.764865"
+    },
+    "response": {
+      "answer": "It seems like you've entered an invalid or irrelevant input (\"iokl\"). Could you please rephrase or provide a new question related to the context you've provided? I'll be happy to assist you.",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 256,
+        "prompt_tokens": 303,
+        "response_tokens": 42,
+        "total_tokens": 345,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.7853052616119385,
+      "context": "Introduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\nA candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of \na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range  \n\u2022 The wick, or shadow, that indicates the intra-day high and low  \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price\nincrease, while a red (or black) body shows a price decrease \nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance \nlevels. There are a great many candlestick patterns that indicate an opportunity within a market \u2013 some provide \ninsight into the balance between buying and selling pressures, while others identify continuation patterns or market"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:51:03.381100",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "41",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "fghg"
+      },
+      "timestamp": "2025-02-18T10:51:01.095661"
+    },
+    "response": {
+      "answer": "It seems like you haven't asked a question yet. What would you like help with?",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 256,
+        "prompt_tokens": 303,
+        "response_tokens": 18,
+        "total_tokens": 321,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.28444766998291,
+      "context": "increase, while a red (or black) body shows a price decrease \nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance \nlevels. There are a great many candlestick patterns that indicate an opportunity within a market \u2013 some provide \ninsight into the balance between buying and selling pressures, while others identify continuation patterns or market\nIntroduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\nA candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of \na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range  \n\u2022 The wick, or shadow, that indicates the intra-day high and low  \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:52:09.956353",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "44",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Purpose"
+      },
+      "timestamp": "2025-02-18T10:52:07.945070"
+    },
+    "response": {
+      "answer": "According to the provided context, the purpose of the platform is to facilitate effortless trading by allowing users to establish personalized settings, thereby enabling trades to be executed automatically and requiring minimal human intervention.",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 212,
+        "prompt_tokens": 257,
+        "response_tokens": 37,
+        "total_tokens": 294,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.010293960571289,
+      "context": "Introduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\nincrease, while a red (or black) body shows a price decrease \nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance \nlevels. There are a great many candlestick patterns that indicate an opportunity within a market \u2013 some provide \ninsight into the balance between buying and selling pressures, while others identify continuation patterns or market\noften involves a dealer network. No central, physical location only a virtual network of participants. Timings 24/7. \nContracts are Customized. Counterparty risk, assets can be more volatile, and can be traded on leverage, which \nmeans there\u2019s a risk of losing more than the deposit"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:52:24.184583",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "52",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "What is Trading"
+      },
+      "timestamp": "2025-02-18T10:52:22.521694"
+    },
+    "response": {
+      "answer": "Trading is the buying and selling of financial instruments in order to make a profit.",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 265,
+        "prompt_tokens": 312,
+        "response_tokens": 16,
+        "total_tokens": 328,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.66135835647583,
+      "context": "Trading is the buying and selling of financial instruments in order to make a profit. These instruments range from a \nvariety of assets assigned a financial value that can go up or down. Trading involves vigorous participation in the \nfinancial markets compared to investing, which works on a buy-and-hold strategy. The success of trading is \ndependent on the ability of a trader to be profitable over a period of time.\nIntroduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading\nA trader is a person who gets involved in buying and selling a financial asset in any financial market. He or she can \nbuy or sell either for himself/herself or on behalf of another individual or institution. The main difference between an \ninvestor and a trader is the duration for which he or she holds on to the asset. \n A trader is a person who engages in the short-term purchasing and selling of equity either for an institution or for \nthemselves. \n1.3. What is a Candlestick"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:52:32.766928",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "58",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "What is a Candlestick"
+      },
+      "timestamp": "2025-02-18T10:52:31.681542"
+    },
+    "response": {
+      "answer": "A candlestick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of a security for a specific period, wherein each candlestick details a single day's trading.",
+      "token_info": {
+        "question_tokens": 5,
+        "context_tokens": 283,
+        "prompt_tokens": 332,
+        "response_tokens": 44,
+        "total_tokens": 376,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.0843853950500488,
+      "context": "A candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of \na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range  \n\u2022 The wick, or shadow, that indicates the intra-day high and low  \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price\nincrease, while a red (or black) body shows a price decrease \nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance \nlevels. There are a great many candlestick patterns that indicate an opportunity within a market \u2013 some provide \ninsight into the balance between buying and selling pressures, while others identify continuation patterns or market\nindecision. CandlePatternsAll strategy calculates all candlestick pattern indicators that are available on the platform. \nEssentially, the strategy differs from the CandlePatternsMultiple strategy only by calculated indicator count and by \nthe way the list of indicators gets compiled. \n1.4. What is a Candle Indicator \nThis indicator paints each candle green, red, or blue depending on whether the buy/sell pressure for that candle is \nbullish, bearish, or neutral. \n1.5. How to Use Indicator"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:52:49.807590",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "128",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "wherein each candlestick details a single day\u2019s trading. It has three essential features:"
+      },
+      "timestamp": "2025-02-18T10:52:48.566124"
+    },
+    "response": {
+      "answer": "The three essential features of a candlestick chart are:\n\n \u2022 The body, which represents the open-to-close range\n \u2022 The wick, or shadow, that indicates the intra-day high and low\n \u2022 The color, which reveals the direction of market movement",
+      "token_info": {
+        "question_tokens": 18,
+        "context_tokens": 286,
+        "prompt_tokens": 346,
+        "response_tokens": 51,
+        "total_tokens": 397,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.240464687347412,
+      "context": "A candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of \na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range  \n\u2022 The wick, or shadow, that indicates the intra-day high and low  \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price\nincrease, while a red (or black) body shows a price decrease \nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance \nlevels. There are a great many candlestick patterns that indicate an opportunity within a market \u2013 some provide \ninsight into the balance between buying and selling pressures, while others identify continuation patterns or market\nA trader is a person who gets involved in buying and selling a financial asset in any financial market. He or she can \nbuy or sell either for himself/herself or on behalf of another individual or institution. The main difference between an \ninvestor and a trader is the duration for which he or she holds on to the asset. \n A trader is a person who engages in the short-term purchasing and selling of equity either for an institution or for \nthemselves. \n1.3. What is a Candlestick"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:53:02.907204",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "63",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "What is a Candle Indicator"
+      },
+      "timestamp": "2025-02-18T10:53:01.743839"
+    },
+    "response": {
+      "answer": "This indicator paints each candle green, red, or blue depending on whether the buy/sell pressure for that candle is bullish, bearish, or neutral.",
+      "token_info": {
+        "question_tokens": 5,
+        "context_tokens": 263,
+        "prompt_tokens": 311,
+        "response_tokens": 31,
+        "total_tokens": 342,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.1613478660583496,
+      "context": "indecision. CandlePatternsAll strategy calculates all candlestick pattern indicators that are available on the platform. \nEssentially, the strategy differs from the CandlePatternsMultiple strategy only by calculated indicator count and by \nthe way the list of indicators gets compiled. \n1.4. What is a Candle Indicator \nThis indicator paints each candle green, red, or blue depending on whether the buy/sell pressure for that candle is \nbullish, bearish, or neutral. \n1.5. How to Use Indicator\nA candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of \na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range  \n\u2022 The wick, or shadow, that indicates the intra-day high and low  \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price\nblue. This indicates neutral buy/sell pressure. 8 Use the color changes to see if there is more buying or selling to \npinpoint reversals and understand current market buying. Wait to enter or exit positions until the candles turn the \nopposite color."
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:53:10.826192",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "57",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How to Use Indicator"
+      },
+      "timestamp": "2025-02-18T10:53:09.911502"
+    },
+    "response": {
+      "answer": "According to the documentation, the step-by-step guide on \"How to Use Indicator\" is mentioned in the section 1.5 of the document with id 'a20e8f5f-38da-4901-b7c4-10d510a15c97'. However, the exact content seems to be missing in the provided context. \n\nBut it can be inferred that using the indicator might involve analyzing the color changes of the candles (green, red, or blue) to understand the current market buying and selling pressure, and then using that information to pinpoint reversals and enter or exit positions accordingly, as mentioned in the document with id 'b1649974-3f1f-43ad-aadb-180b67fafab6'.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 235,
+        "prompt_tokens": 282,
+        "response_tokens": 155,
+        "total_tokens": 437,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 0.9116973876953125,
+      "context": "indecision. CandlePatternsAll strategy calculates all candlestick pattern indicators that are available on the platform. \nEssentially, the strategy differs from the CandlePatternsMultiple strategy only by calculated indicator count and by \nthe way the list of indicators gets compiled. \n1.4. What is a Candle Indicator \nThis indicator paints each candle green, red, or blue depending on whether the buy/sell pressure for that candle is \nbullish, bearish, or neutral. \n1.5. How to Use Indicator\nWhen the directional movement index indicator shows more buying pressure than selling pressure, the candle will \nappear lime green. This indicates bullish buying pressure. When the directional movement index indicator shows \nmore selling pressure than buying pressure, the candle will appear red. This indicates bearish selling pressure. When \nthe directional movement index indicator shows the same amount of buy and sell pressure, the candle will appear\nblue. This indicates neutral buy/sell pressure. 8 Use the color changes to see if there is more buying or selling to \npinpoint reversals and understand current market buying. Wait to enter or exit positions until the candles turn the \nopposite color."
+    }
+  },
+  {
+    "timestamp": "2025-02-18T10:53:31.673148",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "58",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How does Trading Work"
+      },
+      "timestamp": "2025-02-18T10:53:29.189855"
+    },
+    "response": {
+      "answer": "When trading, the user profits if the market price moves in the same direction as the user's speculation; however, if it takes the opposite direction, the user incurs a loss. It's essential to note that trading is inherently risky and could result in losing more than expected if proper risk management steps are not taken.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 238,
+        "prompt_tokens": 286,
+        "response_tokens": 64,
+        "total_tokens": 350,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.482293128967285,
+      "context": "Trading is the buying and selling of financial instruments in order to make a profit. These instruments range from a \nvariety of assets assigned a financial value that can go up or down. Trading involves vigorous participation in the \nfinancial markets compared to investing, which works on a buy-and-hold strategy. The success of trading is \ndependent on the ability of a trader to be profitable over a period of time.\n1.6. How does Trading Work \nWhen trading, the user profit if the market price moves in the same direction as the user\u2019s speculation; however, if it \ntakes the opposite direction, the user incur a loss. It\u2019s important to note that trading is inherently risky and could lose \nmore than expected if don\u2019t take the appropriate risk management steps. Trading happens between two parties and\nIntroduction \n1.1. Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades \nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms \n1.2. What is Trading"
+    }
   }
 ]
