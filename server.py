@@ -7,6 +7,8 @@ import time
 import json
 import os
 from datetime import datetime
+import threading
+
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
@@ -102,8 +104,19 @@ def create_message():
         "context": result.context
     }
 
-    # Save request and response data
-    save_request_data(request_payload, response_data)
+
+
+
+  
+
+    # Creating a thread
+    # thredd = threading.Thread(target=save_request_data,args=(request_payload, response_data))
+    # thredd.start()
+
+   
+
+    print("Threading done!")
+
 
     return jsonify(response_data), 201
 

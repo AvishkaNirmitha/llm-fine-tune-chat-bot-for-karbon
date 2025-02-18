@@ -1,0 +1,197 @@
+[
+  {
+    "timestamp": "2025-02-18T08:34:37.030740",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.30:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "42",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "fgdfg"
+      },
+      "timestamp": "2025-02-18T08:34:29.735140"
+    },
+    "response": {
+      "answer": "It seems that there is no question provided in your context. Please provide a clear and concise question related to the given context, and I will be happy to assist you.",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 1746,
+        "prompt_tokens": 1793,
+        "response_tokens": 34,
+        "total_tokens": 1827,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 7.295600414276123,
+      "context": "Ex: In this stage, the trade will change the leverage type to cross 10x at negative 50% PnL.\nRepurchase\nRepurchase is a feature that allows users to repurchase the trade. If the trade PnL% hits that given value, the action will trigger\nimmediately.\nEx: In this stage, the trade will repurchase 50% of the opened trade at negative 50% PnL.\nReset after Swing\nIn Karbon platform We can use 2 deferent methods in hedge mode.\nReset after Swing\nIn this mode, users can create a hedge trade that will be reset its stages after hit opposite side 1st stage For a example : if trade is\nat P4 stage and going down to hit N.1. after hit N.1 positive stages reset and it became P.entry stage. If negative stage is\nrepurchase, that quantity will be dropped with small profit at latest entry price. For that It create TP order in Bybit\nNo reset after Swing\nIn this mode, users can create a hedge trade that will not be reset its stages after hit opposite side 1st stage For a example : if\ntrade is at P4 stage and going down to hit N.1. after hit N.1 positive stage remains P.4 stage.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 30/33\nThe color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price increase, while a red (or\nblack) body shows a price decrease\nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance levels. There are a great\nmany candlestick patterns that indicate an opportunity within a market \u2013 some provide insight into the balance between buying and\nselling pressures, while others identify continuation patterns or market indecision. CandlePatternsAll strategy calculates all candlestick\nKARBON v2.0\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 1/33\nEnd cycle at % gain\nIn this scenario, after opening the latest trade in hedge mode, we record the latest wallet balance, and the user can define a stage to\nexecute this process by using MM setting stages (check box). The user can enter a % value using the dropdown menu, and we check\nafter the selected stage hits; the profit of that hedge trade at the beginning, if the profit is => wallet_balance * selected_percentage,\nboth trades will close and reopen until the cycle count is finished. 0% means this feature is inactive at the time.\u00a0\nHedge trade PnL cycle count \nThe user can define the cycle count by this setting; that means if a hedge trade is closed with a profit (after user-defined stage using\ncheckBox), it triggers a new hedge trade pair. The user can define using this setting how many times it needs to run; after the cycle\ncount ends, no hedge trade is open for that pair.\u00a0\nHedge Trade All close \nThis is a trade action type with a 100% close; users cannot set any stages after this stage set. and also it can be set in a combine mode,\nsplit mode, or positive and negative side. If the hedge trade hit this stage, both trades are closing at the moment. that close, not\ncalculate profit gain\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 31/33\nKarbonDX Dashboard\nBriew overview about account tile in karbonDX Dashboard.\nAccount balances are displayed at the top of the page\nAvailable Balance vs Wallet Balance.\nThe account balance is not updated until the trade is closed. If a profit comes, it will be added to the account balance. If\nthere is a loss, it will be subtracted from the account balance\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 18/33\npattern indicators that are available on the platform. Essentially, the strategy differs from the CandlePatternsMultiple strategy only by\ncalculated indicator count and by the way the list of indicators gets compiled.\nThis real body represents the price range between the open and close of that day's trading. When the real body is filled in or black (also\nred), it means the close was lower than the open. If the real body is white (or green), the close was higher than the open.\n1.4.What is a Candle Indicator\nThis indicator paints each candle green, red, or blue depending on whether the buy/sell pressure for that candle is bullish, bearish, or\nneutral.\n1.5.How to Use Indicator\nWhen the directional movement index indicator shows more buying pressure than selling pressure, the candle will appear lime green.\nThis indicates bullish buying pressure. When the directional movement index indicator shows more selling pressure than buying\npressure, the candle will appear red. This indicates bearish selling pressure. When the directional movement index indicator shows the\nsame amount of buy and sell pressure, the candle will appear blue. This indicates neutral buy/sell pressure. 8 Use the color changes to\nsee if there is more buying or selling to pinpoint reversals and understand current market buying. Wait to enter or exit positions until the\ncandles turn the opposite color.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 2/33\nHome\nBrief introduction to Karbon UI\nWelcome Message & Links\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 5/33\nLastly, enter the verification code sent to your email inbox.\n3. Mobile Phone Verification Code\nPlease try to click send verification code several times and wait.\nCheck whether it is blocked by third-party software on the mobile phone.\n4. Mail Verification Code\nCheck whether it is blocked by the mail spam box.\nLooking for help from online customer service at support@bitget.com.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 13/33\nNotes Tab\nUsers are able to edit the name of the money management setting and save them.\nConfiguration\nConfiguration of the KarbonDX platform\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 24/33\nMinimum Profit Target\nMinimum profit target means, the trade is closed automatically when the profit is reached.\nEnable Trade Hedging\nIn one-way mode, trade cannot be opened on both sides in the same currency. In hedge mode, trades can be opened on both sides in\nthe same currency. If Enable Trade Hedge in settings is \u201cYes\u201d the hedge trade button will be visiblet\nEnable Trade Hedging\nIn one-way mode, trade cannot be opened on both sides in the same currency. In hedge mode, trades can be opened on both sides in\nthe same currency. If Enable Trade Hedge in settings is \u201cYes\u201d the hedge trade button will be visiblet\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 27/33\nEnter 2FA code and confirm. You have successfully created your API key!\n\u201cUsers can add the IP address that was provided by the Karbon team to the API creation\nprocess to prevent other unauthorized IP addresses.\u201d\nHow to Add funds to sub account\nGo to assets using navigation bar.\nIn asset overview Click Transfer button\nAfter clicking transfer you can see a popup window named transfer.\nSelect across sub account(s)(no1)\nset your main account for \u201cfrom\u201d field, for \u201cTo\u201d fields select user sub account derivative account. (no2)\nSelect coin to USDT and set amount you need to transfer.\n\u2022 Click confirm to transfer funds\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 10/33"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T08:34:47.036133",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.30:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "41",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "dffg"
+      },
+      "timestamp": "2025-02-18T08:34:45.759123"
+    },
+    "response": {
+      "answer": "I'm happy to help, but it seems like you didn't ask a question. The provided text appears to be a collection of documents, likely a user guide for Karbon. If you could please rephrase or ask a specific question, I'll do my best to assist you.",
+      "token_info": {
+        "question_tokens": 2,
+        "context_tokens": 1464,
+        "prompt_tokens": 1511,
+        "response_tokens": 57,
+        "total_tokens": 1568,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.2770099639892578,
+      "context": "Trade Size setup\nTrade size setup is the amount of money that a trader is willing to risk on a trade. It is important to set the trade size to a level that is\ncomfortable for the trader and that will not cause financial hardship if the trade is lost. The trade size setup is the amount of money that\na trader is willing to risk on a trade. It is important to set the trade size to a level that is comfortable for the trader and that will not\ncause financial hardship if the trade is lost.\n1. How Do You Want to Close Your Trade\nthe Default option is \u201cClose My Trade by Profits Karbon Advanced Management\nIf this is selected \"Wait for Close Signal for Trading View\" trade is not running according to the stages.\nIf select this, it will not be managed by Money management, and need to check if there are no active trades also the\nexisting trades can be liquidated\nTrade Size\nIn this section, the user can define the order value of the trades that open using karbon.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 25/33\nThe color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price increase, while a red (or\nblack) body shows a price decrease\nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance levels. There are a great\nmany candlestick patterns that indicate an opportunity within a market \u2013 some provide insight into the balance between buying and\nselling pressures, while others identify continuation patterns or market indecision. CandlePatternsAll strategy calculates all candlestick\nKARBON v2.0\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 1/33\nMarket Data\nThis content originates from TradingView and serves the purpose of visualizing market data.\nManual Trade Currency Table\nIn this section, you\u2019ll find a trading currency table that provides 1-hour, 24-hour, and 7-day chart change values, along with volume and\ncurrent currency prices.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 22/33\nKarbonDX Dashboard\nBriew overview about account tile in karbonDX Dashboard.\nAccount balances are displayed at the top of the page\nAvailable Balance vs Wallet Balance.\nThe account balance is not updated until the trade is closed. If a profit comes, it will be added to the account balance. If\nthere is a loss, it will be subtracted from the account balance\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 18/33\nCreate Stages for Trading View Trades\nWhen the user has selected to wait for a closing signal from Tradingview, created trades must have only one stage. It will be a type 3\n(close) stage and the call at percentage & the profit at percentage will be the user's trade size setup values (Long safety take profits %,\nLong safety stop loss %, Short safety take profits %, short safety stop loss %). The value for that stage will always be 100%.\nAdvance Money Management Settings\nConfiguration of Advance Money Management Settings In the KarbonDX platform\nClassic and Split Mode(With Positive)\nUsers can switch between combine mode and split mood using mentioned button below in karbon config page.\nClassic Mode\nWhen the combine mode is enabled, there are no positive stages; each negative stage has a user-defined take profit it self.Users\ncan add stages as many as they want.\nSplit Mode(with positive)\nIn split mode, positive and negative stages are defined separately. Users can set positive stages as well as negative stages, many as\nthey want. This feature is only for a selected user set. If you cannot see this. You are not in that user list.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 28/33\nclick here to open Bitget\nThere are two ways to create a Bitget account:\nSign up by email\nSign up by phone number\nMake sure you have understood and agreed to the terms and privacy policy, and after checking that the information entered is correct,\nclick on Create Account on your desktop or Continue on your mobile.\nA verification page will pop up. Please drag the slider to complete the verification requirements.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 12/33\nMinimum Profit Target\nMinimum profit target means, the trade is closed automatically when the profit is reached.\nEnable Trade Hedging\nIn one-way mode, trade cannot be opened on both sides in the same currency. In hedge mode, trades can be opened on both sides in\nthe same currency. If Enable Trade Hedge in settings is \u201cYes\u201d the hedge trade button will be visiblet\nEnable Trade Hedging\nIn one-way mode, trade cannot be opened on both sides in the same currency. In hedge mode, trades can be opened on both sides in\nthe same currency. If Enable Trade Hedge in settings is \u201cYes\u201d the hedge trade button will be visiblet\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 27/33\nSign Up\nTo use this platform user needs to create an account by simply providing their Name, Email, and password\nAfter creating an account on Karbon, users are able to connect their online exchanges with their new Karbon account. Before connecting\nexchanges, the user needs to create an account on the exchange platform. exchange platforms are bitget and bybit Bybit and Bitget are\nonline exchanges where users can trade cryptocurrencies we are planing to add binance exchange near future\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 4/33\nHome\nBrief introduction to Karbon UI\nWelcome Message & Links\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 5/33\nLastly, enter the verification code sent to your email inbox.\n3. Mobile Phone Verification Code\nPlease try to click send verification code several times and wait.\nCheck whether it is blocked by third-party software on the mobile phone.\n4. Mail Verification Code\nCheck whether it is blocked by the mail spam box.\nLooking for help from online customer service at support@bitget.com.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 13/33"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T08:35:16.479287",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.30:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "43",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "tyhtyh"
+      },
+      "timestamp": "2025-02-18T08:34:54.224637"
+    },
+    "response": {
+      "answer": "I'm not able to determine what you're referring to as \"tyhtyh\" based on the provided context. Could you please provide more information or clarify your question?",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 1572,
+        "prompt_tokens": 1619,
+        "response_tokens": 34,
+        "total_tokens": 1653,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 22.254650115966797,
+      "context": "Enter Notes- API passphrase- permission settings- Link IP address - email verification codeSMS verification code- Google verification\ncode\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 15/33\nHome\nBrief introduction to Karbon UI\nWelcome Message & Links\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 5/33\nKarbonDX Dashboard\nBriew overview about account tile in karbonDX Dashboard.\nAccount balances are displayed at the top of the page\nAvailable Balance vs Wallet Balance.\nThe account balance is not updated until the trade is closed. If a profit comes, it will be added to the account balance. If\nthere is a loss, it will be subtracted from the account balance\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 18/33\nColor Theme Changing\nSite theme can be changed according to the user\u2019s desire. Blue and Green colors are available.\nLive/Paper Accounts\nCreate ByBit New Account\nclick here to open bybit\nThere are two ways to create a Bybit account:\nSign up by email\nSign up by phone number\nClick Sign in on the top right corner of the Bybit homepage. Then click Sign up. You can choose to sign up by email or phone number.\nFill in the required information and click Sign up. You will receive a verification code in your email or phone number. Enter the\nverification code to complete the sign-up process.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 6/33\nOpened trades In trading platform\nOpened trades in the trading platform are displayed in the dashboard.\nAdd & Sync\nPlatform trades can be added to our side, and when added, the leverage will be checked.If the one on the platform is not up to date, we\ncan sync it\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 21/33\nAdjust will trigger liq\nPermission denied\napi_key expire\nAB not enough\ninvalid api_key\nunmatched ip\ncannot set leverage\nCannotAffordOrderCost\nposition idx not match position mode\nInsufficient position\nAPI key is invalid\nInvalid ACCESS_KEY\nThe order size is greater than the max open size\nUnable To Update The Leverage Factor Of This Position, There Is Not Enough Margin!\nUnmatched IP, please check your API key's bound IP addresses\ncurrent position is zero, cannot fix reduce-only order qty\nReduce-only rule not satisfied\nToo Many Requests\nThere is currently an order, or an order is planned, and the leverage cannot be adjusted.\nThe product or service you are seeking to access is not available to you due to regulatory restrictions.If you believe you are a\npermitted customer of this product or service,please reach out to us at support@bybit.com\nExceeded the maximum settable leverage\nLess Than The Minimum Amount 5 USDT\nQty not in range\nThe order size cannot exceed the maximum size of the positionLevel\nNo trade found\nAny Adjustments Made Will Trigger Immediate Liquidation\nThe number of contracts exceeds maximum limit allowed: too large\nParams Error: Buy Or Sell Leverage Is Greater Than\nFix Price Failed For\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 20/33\nclick here to open Bitget\nThere are two ways to create a Bitget account:\nSign up by email\nSign up by phone number\nMake sure you have understood and agreed to the terms and privacy policy, and after checking that the information entered is correct,\nclick on Create Account on your desktop or Continue on your mobile.\nA verification page will pop up. Please drag the slider to complete the verification requirements.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 12/33\nCommon Errors\nSome common errors that can occur while using the hedge mode in Karbon:\nTracking Disabled errors\nIf any of the following errors appear in the log mentioned below, tracking will be disabled.\nunified account is forbidden\nAdjust will trigger liq\nPermission denied\napi_key expire\nAB not enough\ninvalid api_key\nunmatched ip\ncannot set leverage\nCannotAffordOrderCost\nposition idx not match position mode\nInsufficient position\nAPI key is invalid\nInvalid ACCESS_KEY\nThe order size is greater than the max open size\nUnable To Update The Leverage Factor Of This Position, There Is Not Enough Margin!\nUnmatched IP, please check your API key's bound IP addresses\ncurrent position is zero, cannot fix reduce-only order qty\nReduce-only rule not satisfied\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 32/33\n2. Select Exchange\n3. Enter account name, passphrase, API Key and Secret Key\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 17/33\nToo Many Requests\nThere is currently an order, or an order is planned, and the leverage cannot be adjusted.\nThe product or service you are seeking to access is not available to you due to regulatory restrictions.If you believe you are a\npermitted customer of this product or service,please reach out to us at support@bybit.com\nExceeded the maximum settable leverage\nLess Than The Minimum Amount 5 USDT\nQty not in range\nThe order size cannot exceed the maximum size of the positionLevel\nNo trade found\nAny Adjustments Made Will Trigger Immediate Liquidation\nThe number of contracts exceeds maximum limit allowed: too large\nParams Error: Buy Or Sell Leverage Is Greater Than\nFix Price Failed For\nTick Size Error\nAssume you have $500 in your trading account, you configure the trade to open with 1% of wallet balance, the starting amount of the\ntrade is $5, with 20x leverage, the total position size is equal to 100%, and with the current market price, you can buy 0.001 BTC for $100.\nIn bybit, the minimum close/open quantity in BTC is 0.001 BTC (tick size). that minimum close/open quantity is different for every pair. In\nthis configuration, the stage is set as 50% close, which is equal to 0.0005 BTC. In this scenario, bybit rounded the value to 0.001 because\nof tick size; in that case, trade is closed 100% from the bybit side.\u00a0\nFor more Info : Click Here\nBase Price Error\nPositive trade close _ in positive trade close this error can log , reason for that error is the price of the TP order that we Trying to place is\nlower than last price , solution for this error is if error logs ,in that time we execute the active stage of that trade ,\nFor more Info : Click Here\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 33/33"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T08:35:45.527217",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.30:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "43",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "gghkhj"
+      },
+      "timestamp": "2025-02-18T08:35:31.271371"
+    },
+    "response": {
+      "answer": "I couldn't find a relevant question in your context. You provided a large amount of text about documents and their metadata, but I couldn't identify any specific question to answer. If you could rephrase or add the actual question, I'll do my best to assist you.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 1028,
+        "prompt_tokens": 1076,
+        "response_tokens": 55,
+        "total_tokens": 1131,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 14.25584602355957,
+      "context": "Enter Notes- API passphrase- permission settings- Link IP address - email verification codeSMS verification code- Google verification\ncode\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 15/33\nAPI Creation Completed.\nConnect Accounts to Karbon\nUsers can create a new account by providing the necessary information.\n1. Create new account\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 16/33\nCommon Errors\nSome common errors that can occur while using the hedge mode in Karbon:\nTracking Disabled errors\nIf any of the following errors appear in the log mentioned below, tracking will be disabled.\nunified account is forbidden\nAdjust will trigger liq\nPermission denied\napi_key expire\nAB not enough\ninvalid api_key\nunmatched ip\ncannot set leverage\nCannotAffordOrderCost\nposition idx not match position mode\nInsufficient position\nAPI key is invalid\nInvalid ACCESS_KEY\nThe order size is greater than the max open size\nUnable To Update The Leverage Factor Of This Position, There Is Not Enough Margin!\nUnmatched IP, please check your API key's bound IP addresses\ncurrent position is zero, cannot fix reduce-only order qty\nReduce-only rule not satisfied\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 32/33\nHome\nBrief introduction to Karbon UI\nWelcome Message & Links\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 5/33\nYou have successfully registered an account on Bitget.\nHow to Create API Key on Bitget\nClick on the link above to enter your account's settings page. Perform a login if prompted. Alternatively, you can click the human icon on\nthe top right corner of your trading page.\nClick on the create API,\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 14/33\nLastly, enter the verification code sent to your email inbox.\n3. Mobile Phone Verification Code\nPlease try to click send verification code several times and wait.\nCheck whether it is blocked by third-party software on the mobile phone.\n4. Mail Verification Code\nCheck whether it is blocked by the mail spam box.\nLooking for help from online customer service at support@bitget.com.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 13/33\nThe color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price increase, while a red (or\nblack) body shows a price decrease\nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance levels. There are a great\nmany candlestick patterns that indicate an opportunity within a market \u2013 some provide insight into the balance between buying and\nselling pressures, while others identify continuation patterns or market indecision. CandlePatternsAll strategy calculates all candlestick\nKARBON v2.0\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 1/33\n2. Select Exchange\n3. Enter account name, passphrase, API Key and Secret Key\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 17/33\nBitget Accounts\nAccount create and Api Creating\nCreate Bitget New Account\nTo create a new account on Bitget, first, you need to download the Bitget app or head to the Bitget website on a desktop. You can\naccess Bitget anytime and on multiple platforms, including iOS and Android, browser-based websites, as well as a desktop application\nfor Mac and Windows.\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 11/33\nThe available balance is updated when opening the trade. Trade is opened by taking the available balance. If the existing\navailable balance is lesser value, the trade cannot be opened\nOpened trade is displayed on the Dashboard and All trades.\nThe trades added manually from the Karbon will start tracking once it open and the platform will start tracking once it Added from the\nKarbon side.\nIf any of the following errors appear in the log mentioned below, tracking will be disabled.\nunified account is forbidden\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 19/33"
+    }
+  },
+  {
+    "timestamp": "2025-02-18T08:46:23.588741",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.30:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "42",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hello"
+      },
+      "timestamp": "2025-02-18T08:46:21.032538"
+    },
+    "response": {
+      "answer": "I'm here to assist you. What do you need help with?",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 229,
+        "prompt_tokens": 274,
+        "response_tokens": 14,
+        "total_tokens": 288,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.555201292037964,
+      "context": "User\nResponsible for implementing and maintaining security services, such as adding users, building profiles, or managing\ngeneral site administration\nLab UserThis is another existing user type. able to add strategies to the system\nElite UserAuto execution subscribe and account balance 1000USDT\nPro User Not defined yet\nPro + UserNot defined yet\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 3/33\nIntroduction\n1.1.Purpose\nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades to be executed\nautomatically and requiring minimal human intervention. This platform could potentially assist in closing trades automatically when they\nreach a profitable point. This streamlined approach ensures a user-friendly experience that stands out from traditional trading platforms\n1.2.What is Trading\nHome\nBrief introduction to Karbon UI\nWelcome Message & Links\n1/8/25, 2:30 PM Karbon User Guide\nhttps://avishkanirmitha.github.io/karbon-doc/ 5/33"
+    }
+  }
+]

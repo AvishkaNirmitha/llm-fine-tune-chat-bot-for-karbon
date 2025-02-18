@@ -702,5 +702,21 @@
     "userMessage": "what are the avaiable user type sin karbon  ?",
     "botResponse": "Based on the given context, the available user types in Karbon are:\n\n1. Default\n2. Admin\n3. Lab User\n4. Elite User\n5. Pro User\n6. Pro + User",
     "timestamp": "2025-01-21T14:52:19.853554"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739848073930",
+    "reaction": 1,
+    "userMessage": "what the hell",
+    "botResponse": "It seems like you're experiencing some frustration, but I'm not sure what the issue is. The context provided appears to be a collection of documents related to the Karbon User Guide. Can you please clarify or provide more context about what you're looking for help with? I'll do my best to assist you.",
+    "timestamp": "2025-02-18T08:38:14.957512"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739848121374",
+    "reaction": 1,
+    "userMessage": "rgegf",
+    "botResponse": "It seems like there is no actual question to answer. The text provided appears to be a set of documents about the Karbon User Guide, but it doesn't contain a specific question to respond to. Could you please provide the actual question you would like me to answer? I'll be happy to help once I understand the context better.",
+    "timestamp": "2025-02-18T08:39:03.509305"
   }
 ]

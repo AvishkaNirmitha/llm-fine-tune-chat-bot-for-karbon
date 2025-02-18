@@ -71,7 +71,7 @@ class RAGQueryEngine:
         data.extend(loader.load())
 
         # 2. Document Splitting
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1800,chunk_overlap=10)
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap=10)
         self.docs = text_splitter.split_documents(data)
 
         # 3. Initialize Embeddings
@@ -83,7 +83,7 @@ class RAGQueryEngine:
         self.vectorstore = Chroma.from_documents(documents=self.docs, embedding=self.embeddings)
 
         # 5. Create Retriever
-        self.retriever = self.vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 10})
+        self.retriever = self.vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
         # 6. Initialize Llama 3 through Groq
         self.llm = ChatGroq(
