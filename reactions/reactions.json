@@ -798,5 +798,29 @@
     "userMessage": "how increasee security",
     "botResponse": "According to the provided Karbon user guide, you can increase security by enabling 2FA (Two-Factor Authentication) as described in section 4.2. \"How to enable 2FA authentication\":\n\n1. Click your Bybit Profile icon and go to the account and security page.\n2. Scroll down to advanced protection.\n3. Click settings related to Google two-factor authentication.\n4. Check your email for a verification code and enter it for security verification.\n\nAdditionally, you can also add the IP address provided by the Karbon team to the API creation process to prevent unauthorized IP addresses, as described in section 4.5.",
     "timestamp": "2025-02-19T08:03:05.030760"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739944592391",
+    "reaction": 1,
+    "userMessage": "What is Trading?",
+    "botResponse": "Trading involves buying and selling financial instruments to make a profit, relying on market movements aligned with your predictions or speculations. It's distinct from investing by requiring more active participation in the markets for potentially quicker gains but also comes with higher risks if not managed properly within an automated system like Karbon, which optimizes trades based on real-time data and user strategies to enhance profitability while minimizing human intervention.",
+    "timestamp": "2025-02-19T11:27:18.946418"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739944592391",
+    "reaction": 0,
+    "userMessage": "What is Trading?",
+    "botResponse": "Trading involves buying and selling financial instruments to make a profit, relying on market movements aligned with your predictions or speculations. It's distinct from investing by requiring more active participation in the markets for potentially quicker gains but also comes with higher risks if not managed properly within an automated system like Karbon, which optimizes trades based on real-time data and user strategies to enhance profitability while minimizing human intervention.",
+    "timestamp": "2025-02-19T11:27:20.248369"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739948220302",
+    "reaction": 1,
+    "userMessage": "my name is menaka",
+    "botResponse": "Spera!\nSpera, welcome to Bybit! I'm happy to assist you in creating your API key on your Subaccount by going to account settings page.\nTo create an API key on a Subaccount by clicking the human icon:\n\n1. Open Bybit by clicking the \"Bybit\" icon in the top toolbar or by pressing `Ctrl + Alt + B`.\n2. In the bottom right corner of the window, click the \"Subaccount\" option in the left pane menu.\n3. Click **Create API Key** from the left pane menu.\n4. Enter the required details for your API key: name, username, email address, or phone number (if you chose a custom ID). If no ID is provided, leave it blank.\n5. Select \"Add\" in the right pane to create an API key.\n6. Click **Apply** after signing in on the left pane.\n7. Enter additional information for your API key, such as version number or expiration date (if you chose a custom ID).\n8. Wait for 10 seconds, then click **Save**. This ensures that your API key is saved correctly.\n9. Click **OK** to save your API key.\n\nNow let me help you with this!\n\n10. Enter the following details: name, username, email address, or phone number (if you chose a custom ID) in the \"Name\" field and click **Add**. For example, if you chose a custom ID, enter \"Spera\" as your name.\n20. Select \"Open API Key\" from the right pane menu to create an API key.\n31. Enter 4 more details for your API key, one per line below: name, username, email address, or phone number (if you chose a custom ID) in the **Details** field and click **Add**. For example, if you chose a custom ID, enter \"Spera\" as your name.\n42. Click **Save** to save your API key. This ensures that your API key is saved correctly.\n\nNote: You can customize the email address or phone number associated with your API key by clicking on the **Email** and `Add Email` buttons below. If you chose a custom ID, select it manually in the **Details**.",
+    "timestamp": "2025-02-19T12:27:23.862466"
   }
 ]
