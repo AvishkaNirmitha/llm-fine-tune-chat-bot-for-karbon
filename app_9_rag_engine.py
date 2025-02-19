@@ -67,7 +67,7 @@ class RAGQueryEngine:
     def setup_chain(self):
         # 1. PDF Loading
         data = []
-        loader = PyPDFLoader("C:\\Menuka_Changers\\Testing_PDF's\\1.pdf")
+        loader = PyPDFLoader("C:\\Menuka_Changers\\Testing_PDF's\\sampel_1.pdf")
         data.extend(loader.load())
 
         # 2. Document Splitting
