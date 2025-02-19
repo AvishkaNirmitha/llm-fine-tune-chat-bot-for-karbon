@@ -1,7 +1,5 @@
 import requests
 import json
-import pyttsx3
-from RealtimeSTT import AudioToTextRecorder
 
 # Ollama API URL
 OLLAMA_URL = "http://localhost:11434/api/generate"
@@ -9,35 +7,14 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 # Bot's identity
 BOT_NAME = "Spera"
 
-# Initialize TTS engine
-tts_engine = pyttsx3.init()
-tts_engine.setProperty("rate", 185)  # Adjust speech speed
-
 # Initialize a session for persistent HTTP connection
 session = requests.Session()
 session.headers.update({"Connection": "keep-alive"})  # Enable Keep-Alive
 
-# Global flag to manage STT recording
-recording_active = True
-
-# Function to speak text and pause STT while speaking
-def speak_text(text):
-    global recording_active
-
+# Function to process user input
+def process_text(text):
     if not text.strip():
         return
-
-    recording_active = False  # Pause STT
-    tts_engine.say(text)
-    tts_engine.runAndWait()  # Speak sentence-by-sentence
-    recording_active = True  # Resume STT
-
-# Function to process recognized speech
-def process_text(text):
-    if not text.strip() or not recording_active:
-        return
-
-    print(f"\nUser: {text}")  # Display user input
 
     # Define request payload
     payload = {
@@ -79,16 +56,14 @@ def process_text(text):
                                         if sentence:
                                             chunks.append(sentence)
                                             print(sentence + p, flush=True)
-                                            speak_text(sentence + p)  # Speak each sentence
 
                     except json.JSONDecodeError:
                         continue  # Ignore malformed lines
 
-                # Speak any remaining text after streaming ends
+                # Print any remaining text after streaming ends
                 if buffer.strip():
                     chunks.append(buffer.strip())
                     print(buffer.strip(), flush=True)
-                    speak_text(buffer.strip())
 
             else:
                 print(f"Error: {response.status_code} - {response.text}")
@@ -98,10 +73,13 @@ def process_text(text):
 
 # Main function
 if __name__ == '__main__':
-    print("Wait until it says 'Speak now'...")
-    recorder = AudioToTextRecorder(language="en")
-
+    print("Type your message and press Enter. Type 'quit' to exit.")
+    
     while True:
-        if recording_active:  # Only record if allowed
-            text = recorder.text()
-            process_text(text)
+        print("\nYou:", end=" ")
+        user_input = input().strip()
+        if user_input.lower() == 'quit':
+            break
+        process_text(user_input)
+
+    print("\nGoodbye!")
