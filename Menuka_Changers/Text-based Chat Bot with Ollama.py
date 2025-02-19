@@ -18,7 +18,7 @@ def process_text(text):
 
     # Define request payload
     payload = {
-        "model": "phi3:3.8b",
+        "model": "smollm:135m",
         "prompt": (
             f"You are an AI assistant named '{BOT_NAME}'. "
             "Meaning of 'spera' in Romanian is HOPE. "
