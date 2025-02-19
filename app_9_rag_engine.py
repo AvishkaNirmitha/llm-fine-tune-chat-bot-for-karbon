@@ -94,7 +94,7 @@ class RAGQueryEngine:
 
         # 7. Create Chain
         self.template = """
-You are a helpful assistant. Use the following context to answer the question. Be concise and accurate. dont answer anything out of your context.
+You are a helpful assistant. Use the following karbon user guide to answer the question. Be concise and accurate. dont answer anything out of your karbon user guide.
 
 Context: {context}
 
