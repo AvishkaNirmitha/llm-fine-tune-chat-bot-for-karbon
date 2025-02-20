@@ -758,5 +758,69 @@
     "userMessage": "hello",
     "botResponse": "You've initiated our conversation. I'm here to assist you. Please provide more context or a specific question, and I'll do my best to help.",
     "timestamp": "2025-02-18T09:00:54.219419"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739932341516",
+    "reaction": 1,
+    "userMessage": "i dont know trading",
+    "botResponse": "According to the provided user guide, trading is defined in the following way:\n\n\"Trading is the buying and selling of financial instruments in order to make a profit. These instruments range from a...\"\n\nIt's further explained that trading is inherently risky and could result in losses if not managed properly.",
+    "timestamp": "2025-02-19T08:02:56.114939"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739932329324",
+    "reaction": 1,
+    "userMessage": "wtf",
+    "botResponse": "I'm unable to find any information related to your question within the provided Karbon user guide.",
+    "timestamp": "2025-02-19T08:02:58.159025"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739932315258",
+    "reaction": 1,
+    "userMessage": "how to make an ai",
+    "botResponse": "I can't assist you with creating an AI. The given karbon user guide does not contain any information about creating an Artificial Intelligence (AI). If you have any questions about trading on the Karbon platform, I'll be happy to help.",
+    "timestamp": "2025-02-19T08:02:59.974159"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739932295116",
+    "reaction": 1,
+    "userMessage": "how to create api key",
+    "botResponse": "To create an API key on Bitget, follow these steps:\n\n1. Go to your trading page and click on \"Subaccounts\" then click \"Management\" in the created sub account.\n2. Click on 'Create New Key' located on the right side of the 'API Management' page.\n3. Click system-generated API keys.\n4. Configure your API key according to your trading needs in the pop-out window.\n5. Enter 2FA code and confirm.\n\nAlternatively, follow these steps:\n\n1. Click on the link above to enter your account's settings page. Perform a login if prompted.\n2. Alternatively, you can click the human icon on the top right corner of your trading page.\n3. Click on the create API.\n4. Enter details such as Notes, API passphrase, permission settings, Link IP address, email verification code, SMS verification code, and Google verification code.\n5. API Creation Completed.\n\nPlease note: If you encounter any issues during the process, you may need to check if your verification code is blocked by third-party software or mail spam box, or look for help from online customer service at support@bitget.com.",
+    "timestamp": "2025-02-19T08:03:02.500501"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739932237756",
+    "reaction": 1,
+    "userMessage": "how increasee security",
+    "botResponse": "According to the provided Karbon user guide, you can increase security by enabling 2FA (Two-Factor Authentication) as described in section 4.2. \"How to enable 2FA authentication\":\n\n1. Click your Bybit Profile icon and go to the account and security page.\n2. Scroll down to advanced protection.\n3. Click settings related to Google two-factor authentication.\n4. Check your email for a verification code and enter it for security verification.\n\nAdditionally, you can also add the IP address provided by the Karbon team to the API creation process to prevent unauthorized IP addresses, as described in section 4.5.",
+    "timestamp": "2025-02-19T08:03:05.030760"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739944592391",
+    "reaction": 1,
+    "userMessage": "What is Trading?",
+    "botResponse": "Trading involves buying and selling financial instruments to make a profit, relying on market movements aligned with your predictions or speculations. It's distinct from investing by requiring more active participation in the markets for potentially quicker gains but also comes with higher risks if not managed properly within an automated system like Karbon, which optimizes trades based on real-time data and user strategies to enhance profitability while minimizing human intervention.",
+    "timestamp": "2025-02-19T11:27:18.946418"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739944592391",
+    "reaction": 0,
+    "userMessage": "What is Trading?",
+    "botResponse": "Trading involves buying and selling financial instruments to make a profit, relying on market movements aligned with your predictions or speculations. It's distinct from investing by requiring more active participation in the markets for potentially quicker gains but also comes with higher risks if not managed properly within an automated system like Karbon, which optimizes trades based on real-time data and user strategies to enhance profitability while minimizing human intervention.",
+    "timestamp": "2025-02-19T11:27:20.248369"
+  },
+  {
+    "userid": "AV",
+    "messageId": "1739948220302",
+    "reaction": 1,
+    "userMessage": "my name is menaka",
+    "botResponse": "Spera!\nSpera, welcome to Bybit! I'm happy to assist you in creating your API key on your Subaccount by going to account settings page.\nTo create an API key on a Subaccount by clicking the human icon:\n\n1. Open Bybit by clicking the \"Bybit\" icon in the top toolbar or by pressing `Ctrl + Alt + B`.\n2. In the bottom right corner of the window, click the \"Subaccount\" option in the left pane menu.\n3. Click **Create API Key** from the left pane menu.\n4. Enter the required details for your API key: name, username, email address, or phone number (if you chose a custom ID). If no ID is provided, leave it blank.\n5. Select \"Add\" in the right pane to create an API key.\n6. Click **Apply** after signing in on the left pane.\n7. Enter additional information for your API key, such as version number or expiration date (if you chose a custom ID).\n8. Wait for 10 seconds, then click **Save**. This ensures that your API key is saved correctly.\n9. Click **OK** to save your API key.\n\nNow let me help you with this!\n\n10. Enter the following details: name, username, email address, or phone number (if you chose a custom ID) in the \"Name\" field and click **Add**. For example, if you chose a custom ID, enter \"Spera\" as your name.\n20. Select \"Open API Key\" from the right pane menu to create an API key.\n31. Enter 4 more details for your API key, one per line below: name, username, email address, or phone number (if you chose a custom ID) in the **Details** field and click **Add**. For example, if you chose a custom ID, enter \"Spera\" as your name.\n42. Click **Save** to save your API key. This ensures that your API key is saved correctly.\n\nNote: You can customize the email address or phone number associated with your API key by clicking on the **Email** and `Add Email` buttons below. If you chose a custom ID, select it manually in the **Details**.",
+    "timestamp": "2025-02-19T12:27:23.862466"
   }
 ]

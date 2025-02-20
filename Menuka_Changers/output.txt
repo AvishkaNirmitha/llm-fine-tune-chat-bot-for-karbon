@@ -1,0 +1,178 @@
+1.	API key is invalid.
+Reason: Incorrect Bybit API key.
+
+2.	Unmatched IP, please check your API key's bound IP addresses.
+Reason: The IP address used to make the API request does not match any of the allowed IP addresses in the Bybit account settings.
+
+
+3.	Current position is zero, cannot fix reduce-only order qty.
+Reason: If there is no existing SHORT position, the side should be SELL. If there is no existing LONG position, the side should be BUY.
+
+4.	Position idx not match position mode.
+Reason: PositionIdx should be 0 when one-way mode is enabled. (1 = buy-hedge-mode, 2 = sell-hedge-mode).
+
+
+5.	The number of contracts exceeds minimum limit allowed.
+Reason: The quantity in the order is below the minimum allowed by Bybit for the selected trading pair.
+
+6.	The number of contracts exceeds maximum limit allowed: too large, order_qty:9223372036854700000 > max_qty:50000000000.
+Reason: The quantity in the order is above the maximum allowed by Bybit for the selected trading pair.
+
+
+7.	Qty invalid.
+Reason: The quantity must be a multiple of the quantity step.
+
+8.	AB not enough for new order.
+Reason: The account balance is not sufficient for the new order.
+
+
+9.	Illegal category.
+Reason: The required parameter "category" is not passed.
+
+10.	Request parameter error.
+Reason: Category must be a string. Possible values: [linear, inverse, option, spot]. Side, orderType, and quantity must also be strings.
+
+
+11.	Params error: symbol invalid.
+Reason: The required parameter "symbol" is not passed or is not a valid string.
+
+12.	Side invalid.
+Reason: The required parameter "side" is not passed or an invalid value has been used. Possible values: [Buy, Sell].
+
+
+13.	OrderType invalid.
+Reason: The required parameter "orderType" is not passed or an invalid value has been used. Possible values: [Market, Limit].
+
+14.	Qty is required.
+Reason: The required parameter "quantity" is not passed.
+
+
+15.	Position_idx[10] invalid.
+Reason: The value of positionIdx must be 0, 1, or 2.
+
+16.	Reduce-only order has same side with current position.
+Reason: A reduce-only order cannot be placed in the same direction as the current open position.
+
+
+17.	Buy leverage invalid.
+Reason: Both buy and sell leverages must be specified and the value should be between 1-100.
+
+18.	Buy leverage not equal sell leverage.
+Reason: When one-way mode is enabled, buy leverage and sell leverage must be equal (in both isolated and cross-margin types).
+
+
+19.	Buy lv should equal to sell lv.
+Reason: When hedge mode is enabled, if the margin mode is cross, both buy and sell leverages must be equal.
+
+20.	Request parameter error.
+Reason: All parameters must have string values.
+
+
+21.	AccountType only supports UNIFIED.
+Reason: The account type should be "UNIFIED".
+
+22.	Missing some parameters that must be filled in, symbol or settleCoin.
+Reason: For the category "linear", either "symbol" or "settleCoin" is required.
+
+
+23.	Illegal category.
+Reason: The category must be a string with one of the possible values: [linear, inverse, option].
+
+24.	Symbol not exist.
+Reason: Symbol must be a valid string.
+
+
+25.	Unified account is forbidden.
+Reason: Cannot change margin mode in unified accounts using this endpoint.
+
+26.	Margin cannot be set without an open position.
+Reason: There must be an open position to change the margin.
+
+
+27.	Only isolated mode can add margin.
+Reason: Margin can be added only in isolated margin mode.
+
+28.	Added margin more than max can reduce margin.
+Reason: The amount of margin being reduced exceeds the maximum allowed based on the current position.
+29.	Server error.
+Reason: setMarginMode should be "REGULAR_MARGIN", "ISOLATED_MARGIN", or "PORTFOLIO_MARGIN".
+
+30.	Request parameter error.
+Reason: setMarginMode must be a string and should have one of the values: "REGULAR_MARGIN", "ISOLATED_MARGIN", or "PORTFOLIO_MARGIN".
+
+
+31.	Set margin mode failed.
+Reason: Cannot switch the margin mode to "PORTFOLIO_MARGIN" because the requirements for this mode are not met.
+
+32.	Auto add margin not modified.
+Reason: Trying to set auto-add margin status to the current status (already on or already off).
+
+
+33.	Position mode not match positionIdx.
+Reason: If hedge mode is enabled, positionIdx must be either 1 or 2.
+
+34.	Illegal category.
+Reason: The required parameter "category" is not passed.
+35.	Params error: symbol invalid.
+Reason: The required parameter "symbol" is not passed.
+
+36.	Param newAutoAddMargin [7] err.
+Reason: The value of the autoAddMargin parameter must be either 1 or 0.
+
+
+37.	Position index is invalid.
+Reason: The value of the positionIdx parameter must be 0, 1, or 2.
+
+38.	Coin and symbol cannot be both empty.
+Reason: Either "symbol" or "coin" must be provided.
+
+
+39.	Position mode is not modified.
+Reason: The position mode is already set to the required mode.
+
+40.	Position_mode invalid.
+Reason: The mode should be 0 or 3 (0 - Merged single, 3 - Both sides).
+
+
+41.	Illegal category.
+Reason: The required parameter "category" is not passed or has an invalid value. Possible values: [linear, inverse].
+
+42.	Request parameter error.
+Reason: The parameters "category", "symbol", and "coin" must be strings, while "mode" must be an integer.
+
+
+43.	Illegal category.
+Reason: The required parameter "category" is not passed or has an invalid value. Possible values: [linear, inverse].
+44.	Params error: symbol invalid.
+Reason: Symbol must be a valid string.
+
+45.	Risk ID not modified.
+Reason: The required risk limit has already been set.
+
+
+46.	Params error: symbol invalid.
+Reason: Symbol must be a valid string.
+
+47.	Position idx not match position mode.
+Reason: When one-way mode is enabled, positionIdx should be 0.
+
+
+48.	TransferId exist.
+Reason: The transferId should be unique for each transfer. The provided transferId has already been used. Try using a new unique transferId.
+
+49.	Request parameter error: amount must be greater than zero.
+Reason: The transfer amount must be greater than zero. Try updating the amount to a positive value.
+
+
+50.	TakeProfit:5000000 set for Buy position should be higher than base_price:545291300??MarkPrice.
+Reason: The take profit (TP) price should be higher than the entry price for a long position and vice versa for a short position.
+
+51.	TakeProfit(0):560000 < 10% of base:729557800.
+Reason: The TP price is too low. It must be at least 10% of the base price.
+
+
+52.	TakeProfit(0):56000000000000 too high.
+Reason: The TP price is too high.
+
+53.	Cannot set TP/SL/TS for zero position.
+Reason: Cannot place a take profit order when there is no existing position.
