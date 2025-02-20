@@ -129,7 +129,6 @@ async function sendMessage() {
       addMessage(message, true);
       messageInput.value = "";
 
-      // showLoader();
       const typingIndicator = showTypingIndicator();
 
       const API_URL = "http://192.168.1.16:5000/api/messages";
@@ -145,22 +144,35 @@ async function sendMessage() {
         }),
       });
 
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
       const responseJSON = await response.json();
+      console.log('Response from server:', responseJSON);
+
       typingIndicator.remove();
 
-      addMessage(responseJSON?.answer, false, false);
+      // Format the response by replacing newlines with <br> tags
+      if (responseJSON?.answer) {
+        const formattedAnswer = responseJSON.answer.replace(/\n/g, '<br>');
+        addMessage(formattedAnswer, false, false);
+      } else {
+        throw new Error('Invalid response format from server');
+      }
+
     } catch (error) {
       const typingIndicator = document.querySelector(".typing-indicator");
       if (typingIndicator) {
         typingIndicator.remove();
       }
 
+      console.error("API Error:", error);
       addMessage(
         "Sorry, I encountered an error. Please try again later.",
         false,
         true
       );
-      console.error("API Error:", error);
     } finally {
       hideLoader();
       isApiCallInProgress = false;

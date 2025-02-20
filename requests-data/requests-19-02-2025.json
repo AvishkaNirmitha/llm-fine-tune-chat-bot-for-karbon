@@ -3205,5 +3205,751 @@
       "timing": 17.91414761543274,
       "context": "3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\n4.3.How to Create Sub Account on bybit \n \nStep 1- Go to user setting by clicking profile icon in bybit. \nStep 2- Click subaccounts tab \nStep 3- Click Create subaccount button. \nStep 4- Click standard subaccount. \nStep 5- Enter any name without space and select account type to standard \nStep 6- Click confirm to finish the setup. \n \n4.4.Create Your API Key on Bybit Subaccount \nStep 1- enter your account's settings page. Perform a login if prompted. Alternatively, you can click the human icon\nAdmin User Responsible for implementing and maintaining security \nservices, such as adding users, building profiles, or \nmanaging general site administration \nAdmin User This is another existing user type. able to add strategies \nto the system \nElite User Auto execution subscribe and account balance \n1000USDT \nPro User Not defined yet \nPro + User Not defined yet \n \n2.2.Sign Up \nTo use this platform user needs to create an account by simply providing their Name, Email, and password"
     }
+  },
+  {
+    "timestamp": "2025-02-19T12:46:14.665431",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "54",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "my name is menuka"
+      },
+      "timestamp": "2025-02-19T12:46:08.040631"
+    },
+    "response": {
+      "answer": "To proceed with creating an account, what is your email address? (Please refer to step 2 of the Karbon user guide)",
+      "token_info": {
+        "question_tokens": 5,
+        "context_tokens": 286,
+        "prompt_tokens": 358,
+        "response_tokens": 27,
+        "total_tokens": 385,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 6.624287843704224,
+      "context": "Step 2- Make sure you have understood and agreed to the terms and privacy policy, and after checking that the \ninformation entered is correct, click on Create Account on your desktop or Continue on your mobile. \nStep 3- A verification page will pop up. Please drag the slider to complete the verification requirements. \nStep 4- Lastly, enter the verification code sent to your email inbox. \nStep 5- Mobile Phone Verification Code\nAdmin User Responsible for implementing and maintaining security \nservices, such as adding users, building profiles, or \nmanaging general site administration \nAdmin User This is another existing user type. able to add strategies \nto the system \nElite User Auto execution subscribe and account balance \n1000USDT \nPro User Not defined yet \nPro + User Not defined yet \n \n2.2.Sign Up \nTo use this platform user needs to create an account by simply providing their Name, Email, and password\nClick Sign in on the top right corner of the Bybit homepage. Then click Sign up. You can choose to sign up by email or \nphone number. Fill in the required information and click Sign up. You will receive a verification code in your email or \nphone number. Enter the verification code to complete the sign-up process. Make sure you have understood and \nagreed to the terms and privacy policy, and after checking that the information entered is correct, click on Create"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T12:46:40.170953",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "56",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "menuka400@gmail.com"
+      },
+      "timestamp": "2025-02-19T12:46:26.535403"
+    },
+    "response": {
+      "answer": "It seems you haven't completed the registration process yet. Please refer to Steps 2-6 in the Karbon user guide for assistance. If you encounter any issues during verification, review Step 5 according to your chosen method (Mobile Phone or Mail). If still having trouble, follow the troubleshooting steps provided in the guide.",
+      "token_info": {
+        "question_tokens": 5,
+        "context_tokens": 276,
+        "prompt_tokens": 347,
+        "response_tokens": 65,
+        "total_tokens": 412,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 13.630377769470215,
+      "context": "Step 2- Make sure you have understood and agreed to the terms and privacy policy, and after checking that the \ninformation entered is correct, click on Create Account on your desktop or Continue on your mobile. \nStep 3- A verification page will pop up. Please drag the slider to complete the verification requirements. \nStep 4- Lastly, enter the verification code sent to your email inbox. \nStep 5- Mobile Phone Verification Code\n\u2022 Please try to click send verification code several times and wait. \n\u2022 Check whether it is blocked by third-party software on the mobile phone. \nStep 5- Mail Verification Code \n\u2022 Check whether it is blocked by the mail spam box. \n\u2022 Looking for help from online customer service at support@bitget.com. \nStep 6- You have successfully registered an account on Bitget. \n5.2.How to Create API Key on Bitget\nStep 1- Click on the link above to enter your account's settings page. Perform a login if prompted. Alternatively, you \ncan click the human icon on the top right corner of your trading page. \nStep 2- Click on the create API, \nStep 3- Enter Notes- API passphrase- permission settings- Link IP address - email verification codeSMS verification \ncode- Google verification code \nStep 4- API Creation Completed."
+    }
+  },
+  {
+    "timestamp": "2025-02-19T12:47:19.350073",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "can you tell me about Sri Lanka?"
+      },
+      "timestamp": "2025-02-19T12:47:07.227421"
+    },
+    "response": {
+      "answer": "I'm Spera, here to assist you with Karbon-related queries.\n\nSince your question is unrelated to the Karbon user guide, I'll politely say that it's not within my scope to provide information on external topics like Sri Lanka. If you have any questions about setting up a security for a specific period or understanding candlestick details in Karbon, feel free to ask!",
+      "token_info": {
+        "question_tokens": 8,
+        "context_tokens": 279,
+        "prompt_tokens": 353,
+        "response_tokens": 77,
+        "total_tokens": 430,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 12.121121406555176,
+      "context": "a security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease\n\u2022 Please try to click send verification code several times and wait. \n\u2022 Check whether it is blocked by third-party software on the mobile phone. \nStep 5- Mail Verification Code \n\u2022 Check whether it is blocked by the mail spam box. \n\u2022 Looking for help from online customer service at support@bitget.com. \nStep 6- You have successfully registered an account on Bitget. \n5.2.How to Create API Key on Bitget\nIntroduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T12:48:12.727257",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "39",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+        "Dnt": "1",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8,ta;q=0.7,la;q=0.6"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hi"
+      },
+      "timestamp": "2025-02-19T12:48:10.314298"
+    },
+    "response": {
+      "answer": "Welcome to Karbon! What would you like assistance with?",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 335,
+        "prompt_tokens": 404,
+        "response_tokens": 12,
+        "total_tokens": 416,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.411424160003662,
+      "context": "3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\n4.3.How to Create Sub Account on bybit \n \nStep 1- Go to user setting by clicking profile icon in bybit. \nStep 2- Click subaccounts tab \nStep 3- Click Create subaccount button. \nStep 4- Click standard subaccount. \nStep 5- Enter any name without space and select account type to standard \nStep 6- Click confirm to finish the setup. \n \n4.4.Create Your API Key on Bybit Subaccount \nStep 1- enter your account's settings page. Perform a login if prompted. Alternatively, you can click the human icon\nAdmin User Responsible for implementing and maintaining security \nservices, such as adding users, building profiles, or \nmanaging general site administration \nAdmin User This is another existing user type. able to add strategies \nto the system \nElite User Auto execution subscribe and account balance \n1000USDT \nPro User Not defined yet \nPro + User Not defined yet \n \n2.2.Sign Up \nTo use this platform user needs to create an account by simply providing their Name, Email, and password"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T12:48:34.877228",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "57",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+        "Dnt": "1",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8,ta;q=0.7,la;q=0.6"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is candle stick"
+      },
+      "timestamp": "2025-02-19T12:48:25.917630"
+    },
+    "response": {
+      "answer": "A candlestick is a type of price chart used in technical analysis, displaying high, low, open, and closing prices over time, formed by three essential features:\n\n\u2022 The body (open-to-close range)\n\u2022 The wick or shadow (intra-day high and low)\n\u2022 Color (direction of market movement)",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 281,
+        "prompt_tokens": 351,
+        "response_tokens": 64,
+        "total_tokens": 415,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 8.959094524383545,
+      "context": "a security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease\nbuy or sell either for himself/herself or on behalf of another individual or institution. The main difference between an \ninvestor and a trader is the duration for which he or she holds on to the asset. \nA trader is a person who engages in the short-term purchasing and selling of equity either for an institution or for \nthemselves. \n \n1.3.What is a Candlestick \nA candle stick is a type of price chart used in technical analysis that displays the high, low, open, and closing prices of\nOver time, individual candlesticks form patterns that traders can use to recognize major support and resistance \nlevels. There are a great many candlestick patterns that indicate an opportunity within a market \u2013 some provide \ninsight into the balance between buying and selling pressures, while others identify continuation patterns or market \nindecision. CandlePatternsAll strategy calculates all candlestick pattern indicators that are available on the platform."
+    }
+  },
+  {
+    "timestamp": "2025-02-19T12:49:37.647922",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "63",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+        "Dnt": "1",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8,ta;q=0.7,la;q=0.6"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "how to use two factor auth"
+      },
+      "timestamp": "2025-02-19T12:49:14.160200"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click the Bybit Profile icon and go to account and security page.\n2. Scroll down to \"Advanced Protection\" and click on settings for Google Two Factor Authentication.\n3. Enter verification code from email and download Google Authenticator app.\n4. Scan QR code in the app and enter 6-digit authentication code.\n5. Click Confirm to finish setup.\n\nOr, if you want to create an API key with 2FA:\n\n1. Go to \"Subaccounts\" > \"Management\".\n2. Click \"Create New Key\" on the right side of the \"API Management\" page.\n3. Select system-generated API keys.\n4. Configure your API key according to trading needs and enter 2FA code.\n5. Confirm to create your API key!",
+      "token_info": {
+        "question_tokens": 6,
+        "context_tokens": 239,
+        "prompt_tokens": 311,
+        "response_tokens": 165,
+        "total_tokens": 476,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 23.486701250076294,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T12:53:37.151209",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "55",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+        "Dnt": "1",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8,ta;q=0.7,la;q=0.6"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is Elite user"
+      },
+      "timestamp": "2025-02-19T12:53:32.353957"
+    },
+    "response": {
+      "answer": "According to Section 2.2 of the Karbon user guide, an Elite User has Auto execution subscribe and account balance set at 1000USDT.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 289,
+        "prompt_tokens": 360,
+        "response_tokens": 32,
+        "total_tokens": 392,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 4.796741485595703,
+      "context": "Admin User Responsible for implementing and maintaining security \nservices, such as adding users, building profiles, or \nmanaging general site administration \nAdmin User This is another existing user type. able to add strategies \nto the system \nElite User Auto execution subscribe and account balance \n1000USDT \nPro User Not defined yet \nPro + User Not defined yet \n \n2.2.Sign Up \nTo use this platform user needs to create an account by simply providing their Name, Email, and password\nIntroduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades\noften involves a dealer network. No central, physical location only a virtual network of participants. Timings 24/7. \nContracts are Customized. Counterparty risk, assets can be more volatile, and can be traded on leverage, which \nmeans there\u2019s a risk of losing more than the deposit \n \n2.0.User Types And Sign Up \nDocumentation about user Types and Sign Up to the Karbon \n \nUser Type Description \nDefault User Default user is created After the signing up process"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T12:54:26.468147",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "95",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+        "Dnt": "1",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8,ta;q=0.7,la;q=0.6"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "can you give me the list of user type that using on Karbon"
+      },
+      "timestamp": "2025-02-19T12:54:21.283683"
+    },
+    "response": {
+      "answer": "According to the User Types And Sign Up section (2.0), there is only one mentioned user type:\n\n1. Default User - created after signing up process.",
+      "token_info": {
+        "question_tokens": 14,
+        "context_tokens": 301,
+        "prompt_tokens": 382,
+        "response_tokens": 33,
+        "total_tokens": 415,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 5.183440685272217,
+      "context": "Introduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades\noften involves a dealer network. No central, physical location only a virtual network of participants. Timings 24/7. \nContracts are Customized. Counterparty risk, assets can be more volatile, and can be traded on leverage, which \nmeans there\u2019s a risk of losing more than the deposit \n \n2.0.User Types And Sign Up \nDocumentation about user Types and Sign Up to the Karbon \n \nUser Type Description \nDefault User Default user is created After the signing up process\n3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T13:06:05.986012",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T13:05:40.512411"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click your Bybit Profile icon and go to account and security page.\n2. Scroll down to advance protection and click settings for Google Two-Factor Authentication.\n3. Enter the verification code from your email in the security verification field.\n4. Download the Google authentication app, scan the QR code, and enter the authentication code.\n5. Click Confirm to finish the setup.\n\nThat's it! You've successfully enabled 2FA on your Bybit account.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 104,
+        "total_tokens": 416,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 25.473094701766968,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T13:11:31.831827",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T13:11:06.551955"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click your Bybit Profile icon and go to the account and security page.\n2. Scroll down to \"Advance Protection\" and click on settings related to Google Two Factor Authentication.\n3. Check your email for a verification code and enter it in the security verification field.\n4. Download the Google authentication app, scan the QR code, and enter the authentication code.\n5. Click \"Confirm\" to finish the setup.\n\nYou've successfully enabled 2FA!",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 319,
+        "response_tokens": 104,
+        "total_tokens": 423,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 25.278438568115234,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T13:13:36.827806",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T13:13:20.403044"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click your Bybit Profile icon and go to account and security page.\n2. In account and security scroll down the page to advance protection.\n3. Click settings related to Google two-factor authentication.\n4. Check your email to verification code and enter that code in security verification.\n5. Download Google authentication app, scan the QR code, and enter the authentication code.\n6. Click confirm to finish the setup.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 339,
+        "response_tokens": 95,
+        "total_tokens": 434,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 16.42373824119568,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T13:14:19.481008",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "57",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "give me it like list"
+      },
+      "timestamp": "2025-02-19T13:14:06.690994"
+    },
+    "response": {
+      "answer": "Based on the Karbon user guide:\n\n**What is a candlestick chart?**\n\nHere are its three essential features:\n1. The body represents the open-to-close range.\n2. The wick, or shadow, indicates the intra-day high and low.\n3. The color shows the direction of market movement: \n   - Green (or white) for price increase\n   - Red (or black) for price decrease",
+      "token_info": {
+        "question_tokens": 5,
+        "context_tokens": 296,
+        "prompt_tokens": 395,
+        "response_tokens": 85,
+        "total_tokens": 480,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 12.788991212844849,
+      "context": "a security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease\n3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\nIntroduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T13:45:00.446107",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T13:44:34.862785"
+    },
+    "response": {
+      "answer": "1. According to the Karbon user guide, follow these steps:\n3. 1. Click your profile icon.\n4. 2. Go to Account & Security page.\n5. 3. Scroll down to Advance Protection and click on settings for Google Two-Factor Authentication.\n6. 4. Enter verification code from email.\n7. 5. Download Google authentication app and scan QR code, then enter authentication code.\n8. 6. Click Confirm to finish setup.\n10. Alternatively, you can also enable 2FA in your subaccount management by creating a new API key and entering the 2FA code during configuration.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 108,
+        "total_tokens": 420,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 25.582300901412964,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T13:51:48.268553",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T13:51:26.422337"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click your Bybit Profile icon.\n2. Go to Account & Security page.\n3. Scroll down and click on Advanced Protection.\n4. Click settings related to Google Two-Factor Authentication.\n5. Enter verification code from email and download the Google authentication app.\n6. Scan QR code in the popup window and enter the 6-digit authentication code.\n7. Click Confirm to finish setup.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 91,
+        "total_tokens": 403,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 21.84570837020874,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T13:54:46.806962",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T13:54:22.730634"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click your Bybit Profile icon and go to account and security page.\n2. Scroll down to Advanced Protection.\n3. Click settings related to Google two-factor authentication.\n4. Check your email for a verification code and enter it in the security verification field.\n5. Download the Google Authentication app, scan the QR code from the popup window, and enter the authentication code.\n6. Click Confirm to finish setup.\n\nAlternatively, you can create API keys with 2FA by following these steps:\n* Go to Subaccounts > Management\n* Click Create New Key in API Management\n* Configure your API key according to trading needs\n* Enter 2FA code and confirm\n\nYou have successfully enabled 2FA!",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 155,
+        "total_tokens": 467,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 24.07479429244995,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:04:18.216400",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T14:04:00.433181"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, go to your Bybit Profile icon > Account and Security page > Advance Protection > Google Two Factor Authentication settings. Follow the steps from there.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 35,
+        "total_tokens": 347,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 17.78321862220764,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:13:40.256037",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T14:13:15.944144"
+    },
+    "response": {
+      "answer": "1. To enable 2FA authentication, follow these steps: > Click your Profile icon > Account and Security page > Scroll down to Advance Protection > Click settings related to Google Two-Factor Authentication > Check email for verification code, enter in security verification field > Download Google Authenticator app, scan QR code, enter auth.\n2. code > Click Confirm",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 337,
+        "response_tokens": 71,
+        "total_tokens": 408,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 24.31189274787903,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:16:06.887527",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T14:15:48.427254"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication:\n\n\n- 1. Click Bybit Profile icon, go to account and security page.\n- 2. Scroll down to \"Advance Protection\".\n- 3. Click settings for Google Two Factor Authentication.\n- 4. Verify the code in your email, then download the Google authentication app.\n- 5. Scan the QR code, enter the code, and click Confirm.\n\n\nThat's it! You should now have 2FA enabled.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 85,
+        "total_tokens": 397,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 18.460273504257202,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:28:41.652056",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-19T14:28:21.708137"
+    },
+    "response": {
+      "answer": "To enable 2FA, follow these steps:\n\n\n- 1. Click Profile icon, then Account & Security\n- 2. Scroll down to Advance Protection\n- 3. Click Google 2FA settings\n- 4. Verify code via email\n- 5. Download Google Auth app, scan QR code and enter code \n\n6. Confirm setup",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 63,
+        "total_tokens": 375,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 19.943918704986572,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
   }
 ]
