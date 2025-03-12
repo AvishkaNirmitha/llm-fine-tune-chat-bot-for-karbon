@@ -1,0 +1,821 @@
+[
+  {
+    "timestamp": "2025-02-20T10:01:43.991882",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T10:01:14.688135"
+    },
+    "response": {
+      "answer": "According to the Karbon user guide, to enable 2FA authentication:\n\n1. Click your Bybit Profile icon > Account and Security page\n2. Scroll down to Advanced Protection\n3. Click Google Two Factor Authentication settings\n4. Enter verification code from email\n5. Download Google Authenticator app & scan QR code\n6. Enter authentication code & click Confirm\n\nThat's it!",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 79,
+        "total_tokens": 391,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 29.300233364105225,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T10:06:15.086884",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T10:06:00.911684"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, go to:\n\n1. Profile icon > Account & Security page\n2. Scroll down to Advance Protection\n3. Click Google Two Factor Authentication settings\n4. Enter verification code from email and download Google Auth app\n5. Scan QR code and enter auth code\n6. Click Confirm",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 64,
+        "total_tokens": 376,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 14.173656702041626,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T10:08:28.913358",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T10:08:13.480581"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click your Bybit Profile icon, go to account and security page.\n2. Scroll down to \"Advance Protection\", click on settings related to Google Two Factor Authentication.\n3. Check email for verification code, enter in security verification.\n4. Download Google auth app, scan QR code, enter authentication code.\n5. Click Confirm to finish setup.\n\nThat's it!",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 86,
+        "total_tokens": 398,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 15.428913354873657,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T10:09:40.247051",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T10:09:19.967241"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click on the Bybit Profile icon and go to account and security page.\n2. Scroll down to Advanced Protection and click settings related to Google Two Factor Authentication.\n3. Check your email for a verification code and enter it in the security verification field.\n4. Download the Google authentication app and scan the QR code provided in the popup window.\n5. Enter the authentication code in the given field in the popup window.\n6. Click Confirm to finish the setup.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 105,
+        "total_tokens": 417,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 20.274616479873657,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T10:12:11.769514",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T10:11:55.177784"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click on your Bybit Profile icon.\n2. Go to the account and security page.\n3. Scroll down to Advanced Protection.\n4. Click settings for Google Two Factor Authentication.\n5. Enter the verification code sent to your email and confirm.\n\nThat's it! You've successfully enabled 2FA authentication.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 75,
+        "total_tokens": 387,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 16.588157892227173,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T10:14:12.719140",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T10:13:55.723089"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click on the Bybit Profile icon.\n2. Go to the Account and Security page.\n3. Scroll down to Advanced Protection.\n4. Click Settings related to Google Two Factor Authentication.\n5. Enter verification code from email or download Google Authentication app and scan QR code.\n\nThis will enable 2FA authentication for your account.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 78,
+        "total_tokens": 390,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 16.990459203720093,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T10:16:00.818618",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T10:15:46.876998"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click Profile icon > Account & Security\n2. Scroll down to Advance Protection\n3. Click Google Two Factor Authentication settings\n4. Verify code via email and enter it in the security verification field\n5. Download Google Auth app, scan QR code, and enter auth code\n6. Click Confirm",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 73,
+        "total_tokens": 385,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 13.939614295959473,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T10:38:15.799096",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T10:37:56.966087"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n**Desktop:** Go to account and security page (Step 1) > Advance protection (Step 2) > Google two factor authentication settings (Step 3). Verify the code sent to your email (Step 4), then use the Google Authentication app to scan a QR code and enter an authentication code (Steps 5-6). Finally, click \"confirm\" to finish setup.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 89,
+        "total_tokens": 401,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 18.831428050994873,
+      "context": "Account on your desktop or Continue on your mobile. <br> <br>4.2.How To enable 2FA authentication <br>Step 1- Click your Bybit Profile icon and go to account and security page <br>Step 2- In account and security scroll down the page to advance protection. <br>Step 3- Click settings related to google two factor authentication. <br>Step 4- Check your email to verification code and enter that code to security verification.<br>Step 5- downloads google authentication app and scan the QR code given in the popup window and enter the <br>authentication code in given field in the popup window. <br>Step 6- Click confirm to finish the setup<br>on the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. <br>Step 2- Click on 'Create New Key' located on the right side of the 'API Management' page <br>Step 3- Click system-generated API keys. <br>Step 4- The following pop-out window will appear. Please configure your API key according to your trading needs. <br>Step 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:02:28.425927",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:02:13.845655"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, go to your account and security page (Step 1). Scroll down to Advance Protection and click on Google Two Factor Authentication settings (Step 3). Enter the verification code from your email, then download the Google authentication app and scan the QR code (Steps 4-5). Finally, click Confirm to finish setup (Step 6).",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 75,
+        "total_tokens": 387,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 14.579009532928467,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:04:27.497101",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:03:57.811624"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click the Bybit Profile icon and go to account and security page.\n2. Scroll down to Advance protection and click settings related to Google two-factor authentication.\n3. Check your email for a verification code and enter it in the security verification field.\n4. Download the Google Authentication app, scan the QR code, and enter the authentication code.\n5. Click Confirm to finish setup.\n\nYou can also enable 2FA by creating an API key: \n1. Go to Subaccounts > Management.\n2. Click Create New Key on the right side of the API Management page.\n3. Configure your API key and click System-generated API keys.\n4. Enter 2FA code and confirm.\n\nLet me know if you need further assistance!",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 160,
+        "total_tokens": 472,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 29.684432983398438,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:06:04.115579",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:05:38.702677"
+    },
+    "response": {
+      "answer": "To enable 2FA, follow these steps:\n\n1. Click the Bybit Profile icon.\n2. Go to Account and Security page.\n3. Scroll down to Advanced Protection.\n4. Click settings related to Google Two Factor Authentication.\n5. Enter verification code from email.\n6. Download Google authentication app, scan QR code, and enter code.\n\nOr, if you want to create an API key with 2FA:\n\n1. Go to Subaccounts > Management in the top right corner of your trading page.\n2. Click Create New Key on the right side of the API Management page.\n3. Configure API key according to your needs.\n4. Enter 2FA code and confirm.\n\nI hope this helps! Let me know if you need further assistance.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 153,
+        "total_tokens": 465,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 25.412901878356934,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:07:59.152111",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:07:48.673896"
+    },
+    "response": {
+      "answer": "According to the Karbon user guide, to enable 2FA authentication:\n\n1. Click Bybit Profile icon > Account & Security\n2. Scroll down to Advanced Protection\n3. Click Google Two Factor Authentication settings\n4. Enter verification code from email and complete setup with Google Auth app",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 58,
+        "total_tokens": 370,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 10.477195024490356,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:09:11.316015",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:08:56.407057"
+    },
+    "response": {
+      "answer": "According to the Karbon user guide, to enable 2FA authentication:\n\n1. Click Profile icon > Account & Security\n2. Scroll down to Advance Protection\n3. Click Settings for Google Two Factor Authentication\n4. Enter verification code from email and enter it in security verification field\n5. Download Google Auth app, scan QR code and enter auth code in the popup window\n6. Click Confirm",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 81,
+        "total_tokens": 393,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 14.908446073532104,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:10:47.381808",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:10:29.540334"
+    },
+    "response": {
+      "answer": "To enable 2FA, follow these steps:\n\n1. Click on the Bybit Profile icon.\n2. Go to Account & Security page.\n3. Scroll down and click on Advanced Protection.\n4. Click settings related to Google Two Factor Authentication.\n5. Enter verification code from email into Security Verification field.\n6. Download Google authentication app, scan QR code and enter authentication code.\n7. Click Confirm to finish setup.\n\nWould you like me to proceed with subaccounts or API keys?",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 98,
+        "total_tokens": 410,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 17.840456247329712,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:12:09.562276",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:11:48.529041"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click on your Bybit Profile icon.\n2. Go to the \"Account and Security\" page.\n3. Scroll down to \"Advanced Protection\".\n4. Click on settings related to Google Two Factor Authentication.\n5. Enter verification code from email and click to proceed.\n6. Download Google authentication app, scan QR code, and enter auth code in popup window.\n7. Click \"Confirm\" to finish setup.\n\nYou can find this process described in Section 4.2 of the Karbon user guide.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 114,
+        "total_tokens": 426,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 21.031692028045654,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:12:24.885833",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "39",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hi"
+      },
+      "timestamp": "2025-02-20T11:12:20.075068"
+    },
+    "response": {
+      "answer": "We're currently in the context of Karbon UI. I'll provide concise answers related to the guide. What would you like assistance with?",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 335,
+        "prompt_tokens": 404,
+        "response_tokens": 28,
+        "total_tokens": 432,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 4.8102569580078125,
+      "context": "3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\n4.3.How to Create Sub Account on bybit \n \nStep 1- Go to user setting by clicking profile icon in bybit. \nStep 2- Click subaccounts tab \nStep 3- Click Create subaccount button. \nStep 4- Click standard subaccount. \nStep 5- Enter any name without space and select account type to standard \nStep 6- Click confirm to finish the setup. \n \n4.4.Create Your API Key on Bybit Subaccount \nStep 1- enter your account's settings page. Perform a login if prompted. Alternatively, you can click the human icon\nAdmin User Responsible for implementing and maintaining security \nservices, such as adding users, building profiles, or \nmanaging general site administration \nAdmin User This is another existing user type. able to add strategies \nto the system \nElite User Auto execution subscribe and account balance \n1000USDT \nPro User Not defined yet \nPro + User Not defined yet \n \n2.2.Sign Up \nTo use this platform user needs to create an account by simply providing their Name, Email, and password"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:14:22.896179",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:14:08.444221"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click Profile icon > Account & Security\n2. Scroll down to Advanced Protection\n3. Click Google Two-Factor Authentication settings\n4. Verify your email for a code and enter it in the popup window\n5. Download Google Auth app, scan QR code and enter auth code in the popup window\n6. Click Confirm",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 78,
+        "total_tokens": 390,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 14.451447486877441,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:17:33.484069",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:17:14.103755"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n**Desktop/Desktop App**: \n\n1. Click Bybit Profile icon > Account & Security page.\n2. Scroll down to Advanced Protection and click settings for Google Two Factor Authentication.\n3. Enter verification code from email.\n4. Download Google auth app, scan QR code and enter auth code.\n5. Click Confirm.\n\n**Mobile App/Continue on Mobile**: Follow the same steps as above, but ensure you have a stable internet connection for the QR code scan.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 103,
+        "total_tokens": 415,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 19.379291534423828,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:24:03.447376",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "39",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hi"
+      },
+      "timestamp": "2025-02-20T11:23:51.098617"
+    },
+    "response": {
+      "answer": "I'm Spera, your helpful assistant. How can I assist you today?",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 335,
+        "prompt_tokens": 404,
+        "response_tokens": 17,
+        "total_tokens": 421,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 12.347743034362793,
+      "context": "3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\n4.3.How to Create Sub Account on bybit \n \nStep 1- Go to user setting by clicking profile icon in bybit. \nStep 2- Click subaccounts tab \nStep 3- Click Create subaccount button. \nStep 4- Click standard subaccount. \nStep 5- Enter any name without space and select account type to standard \nStep 6- Click confirm to finish the setup. \n \n4.4.Create Your API Key on Bybit Subaccount \nStep 1- enter your account's settings page. Perform a login if prompted. Alternatively, you can click the human icon\nAdmin User Responsible for implementing and maintaining security \nservices, such as adding users, building profiles, or \nmanaging general site administration \nAdmin User This is another existing user type. able to add strategies \nto the system \nElite User Auto execution subscribe and account balance \n1000USDT \nPro User Not defined yet \nPro + User Not defined yet \n \n2.2.Sign Up \nTo use this platform user needs to create an account by simply providing their Name, Email, and password"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:29:15.057140",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "69",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "How To enable 2FA authentication"
+      },
+      "timestamp": "2025-02-20T11:28:59.757398"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication, follow these steps:\n\n1. Click your Bybit Profile icon and go to account and security page.\n2. Scroll down to Advance Protection.\n3. Click settings related to Google two-factor authentication.\n4. Check email for verification code and enter it in the security verification field.\n5. Download Google Authentication app, scan QR code, and enter authentication code.\n6. Click Confirm to finish setup.",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 239,
+        "prompt_tokens": 312,
+        "response_tokens": 86,
+        "total_tokens": 398,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 15.298689603805542,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\non the top right corner of your trading page, go to \u201cSubaccounts\u201d then click \u201cManagement \u201cin created sub account. \nStep 2- Click on 'Create New Key' located on the right side of the 'API Management' page \nStep 3- Click system-generated API keys. \nStep 4- The following pop-out window will appear. Please configure your API key according to your trading needs. \nStep 5- Enter 2FA code and confirm. You have successfully created your API key!"
+    }
+  },
+  {
+    "timestamp": "2025-02-20T11:30:28.357386",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.16:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "76",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://192.168.1.16:8000",
+        "Referer": "http://192.168.1.16:8000/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9,si;q=0.8"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what steps for register two factor auth"
+      },
+      "timestamp": "2025-02-20T11:30:19.377185"
+    },
+    "response": {
+      "answer": "To enable 2FA authentication on Karbon, follow these steps:\n\n1. Click Profile icon > Account and Security\n2. Scroll down to Advanced Protection\n3. Click Google Two-Factor Authentication settings\n4-6. Follow the prompts to complete setup",
+      "token_info": {
+        "question_tokens": 7,
+        "context_tokens": 223,
+        "prompt_tokens": 297,
+        "response_tokens": 52,
+        "total_tokens": 349,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 8.979159832000732,
+      "context": "Account on your desktop or Continue on your mobile. \n \n4.2.How To enable 2FA authentication \nStep 1- Click your Bybit Profile icon and go to account and security page \nStep 2- In account and security scroll down the page to advance protection. \nStep 3- Click settings related to google two factor authentication. \nStep 4- Check your email to verification code and enter that code to security verification.\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\nStep 2- Make sure you have understood and agreed to the terms and privacy policy, and after checking that the \ninformation entered is correct, click on Create Account on your desktop or Continue on your mobile. \nStep 3- A verification page will pop up. Please drag the slider to complete the verification requirements. \nStep 4- Lastly, enter the verification code sent to your email inbox. \nStep 5- Mobile Phone Verification Code"
+    }
+  }
+]

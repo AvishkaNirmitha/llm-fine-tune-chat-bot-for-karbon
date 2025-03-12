@@ -6,23 +6,24 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
-from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 from typing import Dict, Any
 import tiktoken
 import time
 import os
+import requests
+import json
 
 from dotenv import load_dotenv
 
 # Load environment variables from the .env file
 load_dotenv()
 
-
-
 # Token limits configuration
 MAX_PROMPT_TOKENS = 3072
 RESPONSE_TOKEN_BUFFER = 1024
+# Ollama API URL
+OLLAMA_URL = "http://localhost:11434/api/generate"
 
 def count_tokens(text: str) -> int:
     """Count the number of tokens in a text string."""
@@ -44,6 +45,34 @@ def truncate_context(context: str, max_tokens: int) -> str:
         truncated_text = truncated_text[:last_period + 1]
     
     return truncated_text
+
+class OllamaLLM:
+    def __init__(self, model_name="llama3.1:8b", temperature=0.5, max_tokens=512):
+        self.model_name = model_name
+        self.temperature = temperature
+        self.max_tokens = max_tokens
+        self.session = requests.Session()
+        self.session.headers.update({"Connection": "keep-alive"})
+
+    def invoke(self, prompt):
+        payload = {
+            "model": self.model_name,
+            "prompt": prompt,
+            "stream": False,
+            "options": {
+                "temperature": self.temperature,
+                "max_tokens": self.max_tokens
+            }
+        }
+        
+        try:
+            response = self.session.post(OLLAMA_URL, json=payload, timeout=30)
+            if response.status_code == 200:
+                return response.json().get("response", "")
+            else:
+                raise Exception(f"Error from Ollama API: {response.status_code} - {response.text}")
+        except requests.exceptions.RequestException as e:
+            raise Exception(f"Network error connecting to Ollama: {e}")
 
 class QueryResult:
     def __init__(self, answer: str, token_info: Dict[str, int], timing: float, context: str):
@@ -71,7 +100,7 @@ class RAGQueryEngine:
         data.extend(loader.load())
 
         # 2. Document Splitting
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap=10)
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=10)
         self.docs = text_splitter.split_documents(data)
 
         # 3. Initialize Embeddings
@@ -85,16 +114,18 @@ class RAGQueryEngine:
         # 5. Create Retriever
         self.retriever = self.vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
-        # 6. Initialize Llama 3 through Groq
-        self.llm = ChatGroq(
+        # 6. Initialize Ollama LLM (replacing Groq)
+        self.llm = OllamaLLM(
+            model_name="llama3.1:8b",
             temperature=0.8,
-            groq_api_key=os.getenv('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'),
-            model_name="llama-3.1-8b-instant"
+            max_tokens=512
         )
 
         # 7. Create Chain
         self.template = """
-You are a helpful assistant. Use the following karbon user guide to answer the question. Be concise and accurate. dont answer anything out of your karbon user guide.
+You are Spera, a helpful assistant. 'Spera' means HOPE in Romanian.
+Answer only using the Karbon user guide. Be concise, accurate, and give short answers.
+Ignore any questions unrelated to the Karbon user guide
 
 Context: {context}
 
@@ -106,9 +137,6 @@ Answer: Let me help you with that."""
             input_variables=["context", "question"],
             template=self.template
         )
-        
-        llm_chain = self.prompt | self.llm | StrOutputParser()
-        self.rag_chain = {"context": self.retriever, "question": RunnablePassthrough()} | llm_chain
 
     def query(self, question: str) -> QueryResult:
         """
@@ -131,14 +159,15 @@ Answer: Let me help you with that."""
         
         # Count final tokens
         context_tokens = count_tokens(context)
-        prompt_tokens = count_tokens(self.template.format(context=context, question=question))
+        final_prompt = self.template.format(context=context, question=question)
+        prompt_tokens = count_tokens(final_prompt)
         
         # Verify we're within limits
         if prompt_tokens > MAX_PROMPT_TOKENS:
             raise ValueError(f"Total prompt tokens ({prompt_tokens}) exceeds limit ({MAX_PROMPT_TOKENS})")
         
-        # Get response and count its tokens
-        response = self.rag_chain.invoke(question)
+        # Get response directly from Ollama
+        response = self.llm.invoke(final_prompt)
         response_tokens = count_tokens(response)
         
         end_time = time.time()
@@ -154,9 +183,5 @@ Answer: Let me help you with that."""
             "max_prompt_tokens": MAX_PROMPT_TOKENS,
             "max_total_tokens": MAX_PROMPT_TOKENS+RESPONSE_TOKEN_BUFFER
         }
-
-
         
         return QueryResult(response, token_info, elapsed_time, context)
-    
-
