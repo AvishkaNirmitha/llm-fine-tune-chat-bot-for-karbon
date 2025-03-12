@@ -67,7 +67,7 @@ class RAGQueryEngine:
     def setup_chain(self):
         # 1. PDF Loading
         data = []
-        loader = PyPDFLoader("C:\\Users\\menuk\\Desktop\\karbon_bot\\new_ollama_integrations\\Testing_PDF's\\sampel_1.pdf")
+        loader = PyPDFLoader(r"C:\Users\Nuwan\OneDrive\Desktop\ML\Spera ML\Task16_rag\llm-fine-tune-chat-bot-for-karbon\new_ollama_integrations\Testing_PDF\sampel_1.pdf")
         data.extend(loader.load())
 
         # 2. Document Splitting

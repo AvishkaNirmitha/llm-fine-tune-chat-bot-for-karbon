@@ -47,7 +47,7 @@ def truncate_context(context: str, max_tokens: int) -> str:
     return truncated_text
 
 class OllamaLLM:
-    def __init__(self, model_name="llama3.1:8b", temperature=0.5, max_tokens=512):
+    def __init__(self, model_name="qwen2.5:3b", temperature=0.5, max_tokens=512):
         self.model_name = model_name
         self.temperature = temperature
         self.max_tokens = max_tokens
@@ -96,7 +96,7 @@ class RAGQueryEngine:
     def setup_chain(self):
         # 1. PDF Loading
         data = []
-        loader = PyPDFLoader("C:\\Users\\menuk\\Desktop\\karbon_bot\\new_ollama_integrations\\Testing_PDF's\\sampel_1.pdf")
+        loader = PyPDFLoader(r"C:\Users\Nuwan\OneDrive\Desktop\ML\Spera ML\Task16_rag\llm-fine-tune-chat-bot-for-karbon\new_ollama_integrations\Testing_PDF\sigalovada.pdf")
         data.extend(loader.load())
 
         # 2. Document Splitting
@@ -112,20 +112,19 @@ class RAGQueryEngine:
         self.vectorstore = Chroma.from_documents(documents=self.docs, embedding=self.embeddings)
 
         # 5. Create Retriever
-        self.retriever = self.vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3})
+        self.retriever = self.vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 1})
 
         # 6. Initialize Ollama LLM (replacing Groq)
         self.llm = OllamaLLM(
-            model_name="llama3.1:8b",
+            model_name="qwen2.5:3b",
             temperature=0.8,
             max_tokens=512
         )
 
         # 7. Create Chain
         self.template = """
-You are Spera, a helpful assistant. 'Spera' means HOPE in Romanian.
-Answer only using the Karbon user guide. Be concise, accurate, and give short answers.
-Ignore any questions unrelated to the Karbon user guide
+You a helpful AI assistant specializing in the Sigalovada Sutta.
+ Be concise, accurate, and give short answers.
 
 Context: {context}
 

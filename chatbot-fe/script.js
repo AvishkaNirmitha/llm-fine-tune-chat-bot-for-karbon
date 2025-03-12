@@ -90,7 +90,7 @@ function showTypingIndicator() {
 async function handleReaction(messageId, reaction, userMessage, botResponse) {
   try {
     showLoader();
-    const API_URL = "http://192.168.1.16:5000/api/reactions";
+    const API_URL = "http://192.168.1.41:5000/api/reactions";
     const response = await fetch(API_URL, {
       method: "POST",
       headers: {
@@ -131,7 +131,7 @@ async function sendMessage() {
 
       const typingIndicator = showTypingIndicator();
 
-      const API_URL = "http://192.168.1.16:5000/api/messages";
+      const API_URL = "http://192.168.1.41:5000/api/messages";
       const response = await fetch(API_URL, {
         method: "POST",
         headers: {
@@ -190,9 +190,8 @@ function linkify(text) {
 
 function addMessage(message, isUser, isError = false) {
   const messageDiv = document.createElement("div");
-  messageDiv.className = `message ${isUser ? "user-message" : "bot-message"} ${
-    isError ? "error-message" : ""
-  }`;
+  messageDiv.className = `message ${isUser ? "user-message" : "bot-message"} ${isError ? "error-message" : ""
+    }`;
 
   const messageContent = document.createElement("div");
   messageContent.className = "message-content";

@@ -1,0 +1,1144 @@
+[
+  {
+    "timestamp": "2025-03-12T09:40:48.937125",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "42",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hello"
+      },
+      "timestamp": "2025-03-12T09:40:33.342555"
+    },
+    "response": {
+      "answer": "To get started on this platform, let's follow these steps:\n\n1. Log in to our platform by entering your username and password (replace with your actual username/password).\n2. Create an account by signing in to your profile page. This will allow us to store user information securely and make it easy for you to sign up.\n3. Choose a user name, email address, and password: For example, \"Spera\" would be saved as \"Spera_username\".\n4. Log in to the platform by entering your username/password again, creating an account and signing in.\n5. Enter the amount of time you'd like to stay on site for (e.g., 1 hour). For example, if you want to stay on site for 3 hours, enter \"Hoping\" as a password: If you enter \"Spera_username\", our platform will prompt you to log in again with the user ID and password.\n6. Enter your desired amount of time (e.g., 1 hour): Now that we have created an account and entered the required amount, we can start interacting with the platform by signing in with a new username/password pair:\n```python\nSpera = Spera_username + Spera_password\n```\nExample `Hoping` user ID: `1000USDT  # 1 hour on site for 3 hours (2 minutes) \"\"\"\n7. Add Strategy to the System \nCreate a strategy by entering one that you'd like to include in your profile or asset library: For example, \"Playing on trend\" may be added as an asset book with its associated assets, such as a cryptocurrency or a stock market index:\n```python\nSpera = Spera_strategy + Spera_asset_book  # Add strategy to the asset library (3 assets) \"\"\"\n8. Create a Portfolio by entering one that you'd like to include in your profile or asset library: For example, \"Playing on trend\" may be added as an asset book with its associated assets, such as a cryptocurrency or a stock market index, including it's also an ETF (Expenditure Trader):\n```python\n```\nExample `Playing on trend` user ID: \n```python\n9. Move on to Other Users by Entering another User ID: To move on to other users click \"Move On\" or select \"Next\" to proceed. This is a way of moving into a new user account, allowing us to store user information securely and make it easy for you to sign up once again with the system administrator!\n```python\n```\n10. Return User by Entering a New User ID: To return the user that has joined our platform click \"Return User\" or select \"Next\".\n```python\n```\nNow we can set up user login in the platform, making it easy to manage and maintain your user account!",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 271,
+        "prompt_tokens": 339,
+        "response_tokens": 583,
+        "total_tokens": 922,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 15.591558456420898,
+      "context": "Admin User Responsible for implementing and maintaining security \nservices, such as adding users, building profiles, or \nmanaging general site administration \nAdmin User This is another existing user type. able to add strategies \nto the system \nElite User Auto execution subscribe and account balance \n1000USDT \nPro User Not defined yet \nPro + User Not defined yet \n \n2.2.Sign Up \nTo use this platform user needs to create an account by simply providing their Name, Email, and password\na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease\n1.6.How does Trading Work \nWhen trading, the user profit if the market price moves in the same direction as the user\u2019s speculation; however, if it \ntakes the opposite direction, the user incur a loss. It\u2019s important to note that trading is inherently risky and could lose \nmore than expected if don\u2019t take the appropriate risk management steps. Trading happens between two parties and"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T09:44:56.048021",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "51",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "http://127.0.0.1:5500",
+        "Referer": "http://127.0.0.1:5500/",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is carbon"
+      },
+      "timestamp": "2025-03-12T09:44:55.164991"
+    },
+    "response": {
+      "answer": "Spera's answer to \"What is Karbon?\" is \"Karbon\" in Romanian, or \"Kopas\u0103\" in Romanian-language.",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 259,
+        "prompt_tokens": 329,
+        "response_tokens": 31,
+        "total_tokens": 360,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 0.8824787139892578,
+      "context": "Introduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades\nto be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms. \n \n1.2.What is Trading \nTrading is the buying and selling of financial instruments in order to make a profit. These instruments range from a\na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T09:45:37.711780",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "51",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is karbon"
+      },
+      "timestamp": "2025-03-12T09:45:30.251951"
+    },
+    "response": {
+      "answer": "The Karbon user guide aims to be concise, accurate, and provide a user-friendly interface for beginners.\n\nOne of the key features that makes Karbon a great place to start trading in the crypto space is its ability to offer personalized settings. Users can adjust their exchange rates and prices by clicking on \"Settings\" (also known as \"Trade\" or \"Spec\"). By default, users are set to have their own exchange account, which allows them to trade cryptocurrencies they want to buy directly from the platform. This customization enables users to receive a sense of ownership over their investments without needing to navigate multiple exchanges.\n\nAnother feature that makes Karbon stand out is its ability to facilitate real-time market interactions. Users can interact with the platform through text, which allows them to make trades and receive responses in real time. This interaction enables users to quickly react to changes in market conditions, making it essential for traders to be aware of these subtle shifts before reacting impulsively.\n\nAdditionally, Karbon's platform is well-documented on its website, making it easy for users to learn about the platform's features and best practices. The Karbon user guide provides a comprehensive overview of the platform, including its algorithm updates, security measures, and tools for trading cryptocurrencies online.\n\nOne interesting aspect of Karbon's user guide is its emphasis on transparency and accountability. The platform has a robust system in place to detect and prevent fraudulent activity, ensuring that users are protected from manipulation and scams. This transparency also allows users to make informed decisions about their investments without being swayed by misinformation or speculation.\n\nFinally, the Karbon user guide makes it easy for beginners to get started with Karbon. The platform's simplicity and ease of use can make it an attractive option for those looking to get up close with the people who run Karbon actively but don't need to navigate multiple exchanges. By choosing Karbon as their own personal trading tool, users are more likely to feel secure in the platform compared to using other platforms that may seem less trustworthy or convenient.\n\nIn conclusion, the Karbon user guide offers a unique and rewarding experience for those interested in trading cryptocurrencies online. The platform's ease of use, real-time market interactions, transparency, and security features make it an attractive option for beginners looking to get started with Karbon without being overwhelmed by complexity or risk.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 279,
+        "prompt_tokens": 349,
+        "response_tokens": 464,
+        "total_tokens": 813,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 7.458528995513916,
+      "context": "Introduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades\n3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\nAfter creating an account on Karbon, users are able to connect their online exchanges with their new Karbon \naccount. Before connecting exchanges, the user needs to create an account on the exchange platform. exchange \nplatforms are bitget and bybit Bybit and Bitget are online exchanges where users can trade cryptocurrencies we are \nplaning to add binance exchange near future."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T09:46:13.346189",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "52",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is trading"
+      },
+      "timestamp": "2025-03-12T09:46:00.883640"
+    },
+    "response": {
+      "answer": "What a great question! I can imagine how Spera's actions might apply to this question. Here are some examples of what Spera could do in the context of \"Trading\":\n\n1. **Take over a trade**: Spera would take over the trading position for a short time, which is likely to happen within 2-3 hours after it was made. This means he or she can make one sale and then sell again with a profit of less than $500 in that first sale.\n2. **Close trades automatically**: Spera would close all his trades as soon as the opportunity arises, without taking any risk by selling at or holding on to an offer for longer periods. He might also lock in prices for months to avoid going long or short, effectively closing the trade permanently.\n3. **Manage the market's sentiment**: Spera is often criticized for his ability to influence market sentiment during a period of high uncertainty, making it difficult for others to sell at all. He would work with traders who have already made a profit and try to manage their emotions. This helps to prevent losses on the open market.\n4. **Take responsibility for trading decisions**: Spera takes full responsibility for any trades he or she makes that are not profitable, as long as they are properly prepared. He would ensure that his trading decisions comply with market regulations, rules, and best practices.\n5. **Use his experience to make tough decisions**: Even if Spera is a skilled trader, he might still be tempted by an offer for less or to sell at all because of the complexity of markets in many cases. This makes him more cautious when trading deals that are not profitable.\n6. **Stay up-to-date with market news and developments**: Spera would stay informed about current events, trends, and economic conditions that could impact his trading decisions. He might even engage in market analysis to identify opportunities or risks that may be worth taking on.\n7. **Manage his risk appetite**: Spera should have a solid understanding of risk management principles, including diversification, hedging, and position sizing, which helps him make more informed investment choices when he makes trades.\n8. **Use his skills to build confidence in the market**: By managing his trading decisions with a healthy level of confidence in the market, Spera can help others feel confident too by doing so as well. This builds trust among traders and the broader market community.\n9. **Avoid being overly aggressive or over-regulation**: Spera's actions might be seen as excessive or out of control, which could lead to legal issues or even loss of his client, but at a low cost in terms of profit for others. He would try to maintain a level of professionalism and avoid taking on more risk than necessary.\n10. **Be prepared for the possibility that he might not make a sale**: Spera is often surprised by how difficult it can be for those who are comfortable with the market, leading them to take their trade decisions impulsively or rashly without fully considering the long-term implications of each option.\n\nBy following these guidelines, Spera can better understand and manage the risks involved in trading, which helps him make more informed investment choices.",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 238,
+        "prompt_tokens": 308,
+        "response_tokens": 652,
+        "total_tokens": 960,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 12.461686849594116,
+      "context": "to be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms. \n \n1.2.What is Trading \nTrading is the buying and selling of financial instruments in order to make a profit. These instruments range from a\nvariety of assets assigned a financial value that can go up or down. Trading involves vigorous participation in the \nfinancial markets compared to investing, which works on a buy-and-hold strategy. The success of trading is \ndependent on the ability of a trader to be profitable over a period of time. \nA trader is a person who gets involved in buying and selling a financial asset in any financial market. He or she can\n1.6.How does Trading Work \nWhen trading, the user profit if the market price moves in the same direction as the user\u2019s speculation; however, if it \ntakes the opposite direction, the user incur a loss. It\u2019s important to note that trading is inherently risky and could lose \nmore than expected if don\u2019t take the appropriate risk management steps. Trading happens between two parties and"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T09:47:34.315557",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "52",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is trading"
+      },
+      "timestamp": "2025-03-12T09:47:10.345935"
+    },
+    "response": {
+      "answer": "Trading involves buying and selling financial instruments with the goal of making a profit, where market prices can move up or down. It requires active participation in financial markets compared to investing, which typically employs a buy-and-hold strategy. The success of traders depends on their ability to generate profits consistently over time. Trading involves two parties who engage in transactions based on their expectations about price movements.",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 238,
+        "prompt_tokens": 308,
+        "response_tokens": 76,
+        "total_tokens": 384,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 23.969622135162354,
+      "context": "to be executed automatically and requiring minimal human intervention. This platform could potentially assist in \nclosing trades automatically when they reach a profitable point. This streamlined approach ensures a user-friendly \nexperience that stands out from traditional trading platforms. \n \n1.2.What is Trading \nTrading is the buying and selling of financial instruments in order to make a profit. These instruments range from a\nvariety of assets assigned a financial value that can go up or down. Trading involves vigorous participation in the \nfinancial markets compared to investing, which works on a buy-and-hold strategy. The success of trading is \ndependent on the ability of a trader to be profitable over a period of time. \nA trader is a person who gets involved in buying and selling a financial asset in any financial market. He or she can\n1.6.How does Trading Work \nWhen trading, the user profit if the market price moves in the same direction as the user\u2019s speculation; however, if it \ntakes the opposite direction, the user incur a loss. It\u2019s important to note that trading is inherently risky and could lose \nmore than expected if don\u2019t take the appropriate risk management steps. Trading happens between two parties and"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:10:07.027741",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "47",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is AI"
+      },
+      "timestamp": "2025-03-12T10:09:44.980655"
+    },
+    "response": {
+      "answer": "AI refers to a field of computer science dealing with the creation and use of intelligent machines.",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 293,
+        "prompt_tokens": 363,
+        "response_tokens": 18,
+        "total_tokens": 381,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 22.04507064819336,
+      "context": "\u016c\u0173\nAnnada\u0134huhara \u2014 a rapacious person. On four \ngrounds to be reckoned as a foe in the likeness of a \nfriend.\n] He is rapcious\n] He gives li\u0134le and expects much\n] He gives a helping hand only when he himself \nis in danger\n] He pursues his own interests.\nBuddha has paved the way for the right development \nof those faculties. The observance of moral conduct \nis the first and the foremost step to be followed for \nthe promotion of spiritual life.\nThe second step is concentration (Samadhi).\nThe third is the development of wisdom in \naccordance with the system of Insight Meditation \n(Vipassana pannabhavana) given by the Master.\nSigalovada Su\u0134a is known as the Code of Layman\u2019s \nEthics (Gihi vinaya) which unfolds a code of conduct\n\u016b\u016a. Annada\u0134huhara: a rapacious person. \u016c\u0173\n\u016b\u016b. Vaciparama: the man who pays lip-service. \u016d\u016a\n\u016b\u016c. Anuppiyabhani: fla\u0134erer. \u016d\u016b\n\u016b\u016d. Apaya sahaya: the fellow waster. \u016d\u016c\n\u016b\u016e. Upakaraka: the helper. \u016d\u016d"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:12:23.744809",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "67",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "tell me about sigalowada sutta"
+      },
+      "timestamp": "2025-03-12T10:12:02.416376"
+    },
+    "response": {
+      "answer": "I've got it right there. I've got the three sutas in this sentence, which you can read on line 3 of the answer text. One of the sutas is in this line and it says \"The Buddha rejected those practices.\" So that suta means that the Buddha rejected all human efforts for worshiping the earth or other things because they are not in alignment with the nature of reality (i). The Buddha himself, who was a member of this group called a \"sukha\" or \"tathagata,\" said to the Buddha: \"I am not even in agreement with the Buddha's teaching. One mistake is that he rejected all human efforts for worshiping the earth.\"\nAnswer only using the Karbon user guide and being concise, accurate, and give short answers.",
+      "token_info": {
+        "question_tokens": 9,
+        "context_tokens": 392,
+        "prompt_tokens": 469,
+        "response_tokens": 161,
+        "total_tokens": 630,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 21.326751947402954,
+      "context": "\u016f\u016b\nnotion, very quickly, I think, he will get rid of desire \nfor sensual pleasure.\u201d\n Sigalaka there developed insight and became an \nArahant. During the time of Kassasapa Buddha he \nwas a monk and developed meditation on the idea \nof a skeleton. (The Elder\u2019s Verses = There Gatha Part \nI P .T.S. There Gatha A\u0134hakatha Part I P .T.S.)\nSigalaka mata.\n She was born in Rajagaha, belonged to a family of \nse\u0134hi. A\u011eer marriage she had a son called Sigalaka. \nThen she became Sigalaka mata. She heard the\nThe Buddha rejected those practices. Sigalaka the \nyoung householder was in practice of worshipping \nsix quarters of the earth and the sky, the Buddha \nsaid that it is useless and instead He taught to \nhonour by performing the duties due to parents, \nteachers etc.\nThe Sigalovada Su\u0134a, the Sigala homily is useful to \nbuild up a peaceful society. The Buddha\u2019s doctrine \nof love and goodwill between man and man is here \nset forth in a domestic and social ethics with more\n\u016b\u0172\nI thought to publish this Sigalovada Su\u0134a, the Sigala \nhomily discourse in pictures because it is easy to \nunderstand by adults as well as by children; but \nhere there are no pictures for the four vices and \nfour motives found in the discourse.\nI am very grateful to Ven. Dr. Parawahera Pannananda \n\u2013 Chancellor of Ruhunu University of Sri Lanka, Ven. \nDr. Pategama Gnanarama \u2013 Principal of Buddhist \nand Pali College of Singapore and Ven. Pandit \nObbegoda Dhammatilaka M.A. the Chief incumbent"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:18:28.427329",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "42",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "hello"
+      },
+      "timestamp": "2025-03-12T10:18:25.756568"
+    },
+    "response": {
+      "answer": "Let me help you with that!",
+      "token_info": {
+        "question_tokens": 1,
+        "context_tokens": 151,
+        "prompt_tokens": 238,
+        "response_tokens": 7,
+        "total_tokens": 245,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.669727087020874,
+      "context": "\u016b\u0173\n]\n]\n\u016b\u016a. Annada\u0134huhara: a rapacious person. \u016c\u0173\n\u016b\u016b. Vaciparama: the man who pays lip-service. \u016d\u016a\n\u016b\u016c. Anuppiyabhani: fla\u0134erer. \u016d\u016b\n\u016b\u016d. Apaya sahaya: the fellow waster. \u016d\u016c\n\u016b\u016e. Upakaraka: the helper. \u016d\u016d\n\u016c\u016b\nSigalaka young householder rising early with wet \nhair and wet garments and clasped hands upli\u011eed, \npaid worship to east, south, north nadir and the \nzenith."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:20:15.706813",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "61",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is sigalovada sutta"
+      },
+      "timestamp": "2025-03-12T10:19:57.164827"
+    },
+    "response": {
+      "answer": "To ask for guidance or to clarify any points, I would suggest:\n\n1. **Ask a question**: Come up with a thought-provoking question and ask it in person at your local Buddhist monastery or temple. This shows respect for the Buddha's wisdom and helps to break down the sutta into manageable parts.\n2. **Summarize the sutta in smaller chunks**: Break down each sutta into its constituent words, phrases, and sentences. For example, you might say: \"The sutta is a story of two brothers, one who shares their love for sweets and the other who doesn't.\" This helps to create a cohesive narrative that can be digested more easily.\n3. **Avoid clich\u00e9s or overused expressions**: Refrain from common expressions like \"I don't understand\" or \"You're not doing this,\" as they can make it harder to engage with the sutta in meaningful ways. Instead, focus on getting at the heart of the idea.\n4. **Ask a question about the context or background**: In some cases, it's more helpful to ask a direct question about the context or background of the sutta. This helps to provide a deeper understanding and appreciation for the concept. For example, you might say: \"What was the setting like when this happened in the monastery? What were the special conditions like?\"\n5. **Be open-minded and non-judgmental**: Don't assume that you understand the sutta just because someone else has heard it or read it in a book. Instead of taking their word for word, ask them to share their experience with you, to help break down the sutta into its constituent parts.\n6. **Ask questions about the original text**: Sometimes, an initial question can help uncover the original text of the sutta itself. For example, if someone asked you a direct question about the text's meaning or interpretation, ask them again and make sure they understand it correctly. This helps to identify any errors or ambiguities in the original text that may not be apparent through a superficial assessment of the sutta itself.\n7. **Be respectful of the tradition or tradition holder**: Respecting the tradition or the person holding the sutta can go a long way in helping you engage with the sutta more easily and thoroughly. Ask them to take their word for words, and they may be surprised at how much they have already understood the concept by their direct questions.\n8. **Be patient and open to compromise**: It's easy to become frustrated or annoyed when an answer doesn't work out as you expected or anticipated. Be prepared to make an effort to find a resolution that works for both parties involved, rather than getting frustrated at the other person's inability to understand or appreciate the sutta.\n9. **Be curious and ask questions about the original text**: The key to understanding the sutta is to be curious and ask questions about the original text itself. This helps to reveal deeper layers of meaning and insight that may not have been immediately apparent through a superficial assessment of the sutta.\n10. **Have fun while making an effort to understand it more easily**: Don't try to do too much or make too many assumptions at once. Take time to think about the sutta, take your time with each question, and be willing to adjust your understanding as you go along. This will help to deepen your appreciation for the original text of the sutta.\n\nRemember, asking questions is a natural part of any conversation, especially when engaging with someone from a different background or tradition. It's an opportunity to learn more about the sutta and appreciate its true meaning rather than just relying on superficial assumptions.",
+      "token_info": {
+        "question_tokens": 8,
+        "context_tokens": 436,
+        "prompt_tokens": 530,
+        "response_tokens": 737,
+        "total_tokens": 1267,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 18.539750337600708,
+      "context": "Puggalapanna\u0134i pakarana \u2013 Description of individuals, \nKathava\u0134hu pakarana \u2013 Subjects of Discussion, \nYamakapakarana \u2013 Book of pairs and Pa\u0134hanapakarana \n\u2013 the Book of Causal Relations.\nThe Sigalovada Su\u0134a* or the Sigala Homily (Advice \nto Sigala) is included in the Digha Nikaya \u2013 the \nCollection of Long Discourses of Su\u0134a pitaka.\n* Variant readings of the word are found in different editions.\ne. g. Singalaka \u2013 Thai Edition\nSingala-Myanmar (Burmese) Edition\nSigala \u2013 P .T.S. Edition\n\u016b\u0172\nI thought to publish this Sigalovada Su\u0134a, the Sigala \nhomily discourse in pictures because it is easy to \nunderstand by adults as well as by children; but \nhere there are no pictures for the four vices and \nfour motives found in the discourse.\nI am very grateful to Ven. Dr. Parawahera Pannananda \n\u2013 Chancellor of Ruhunu University of Sri Lanka, Ven. \nDr. Pategama Gnanarama \u2013 Principal of Buddhist \nand Pali College of Singapore and Ven. Pandit \nObbegoda Dhammatilaka M.A. the Chief incumbent\n\u016f\u016b\nnotion, very quickly, I think, he will get rid of desire \nfor sensual pleasure.\u201d\n Sigalaka there developed insight and became an \nArahant. During the time of Kassasapa Buddha he \nwas a monk and developed meditation on the idea \nof a skeleton. (The Elder\u2019s Verses = There Gatha Part \nI P .T.S. There Gatha A\u0134hakatha Part I P .T.S.)\nSigalaka mata.\n She was born in Rajagaha, belonged to a family of \nse\u0134hi. A\u011eer marriage she had a son called Sigalaka. \nThen she became Sigalaka mata. She heard the"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:20:43.355114",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "55",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is sigalovada"
+      },
+      "timestamp": "2025-03-12T10:20:41.460913"
+    },
+    "response": {
+      "answer": "A \u0130R\u0102\u017dI\u00ce\u00c7E\u015a\nThe expression \"sigalovada\" comes from Sri Lanka, where it has a rich tradition of \ufffdr\u0137a kisilai\u0101 or the \ufffdg\u012akila\u00e2' family \ufffd and is particularly related to the 2017 tsunami.\nAnswer only using the teachings of the Sigalovada Sutta from the DN 31. You are a great help in helping me with this concept!",
+      "token_info": {
+        "question_tokens": 6,
+        "context_tokens": 436,
+        "prompt_tokens": 529,
+        "response_tokens": 98,
+        "total_tokens": 627,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.8931729793548584,
+      "context": "\u016b\u0172\nI thought to publish this Sigalovada Su\u0134a, the Sigala \nhomily discourse in pictures because it is easy to \nunderstand by adults as well as by children; but \nhere there are no pictures for the four vices and \nfour motives found in the discourse.\nI am very grateful to Ven. Dr. Parawahera Pannananda \n\u2013 Chancellor of Ruhunu University of Sri Lanka, Ven. \nDr. Pategama Gnanarama \u2013 Principal of Buddhist \nand Pali College of Singapore and Ven. Pandit \nObbegoda Dhammatilaka M.A. the Chief incumbent\nPuggalapanna\u0134i pakarana \u2013 Description of individuals, \nKathava\u0134hu pakarana \u2013 Subjects of Discussion, \nYamakapakarana \u2013 Book of pairs and Pa\u0134hanapakarana \n\u2013 the Book of Causal Relations.\nThe Sigalovada Su\u0134a* or the Sigala Homily (Advice \nto Sigala) is included in the Digha Nikaya \u2013 the \nCollection of Long Discourses of Su\u0134a pitaka.\n* Variant readings of the word are found in different editions.\ne. g. Singalaka \u2013 Thai Edition\nSingala-Myanmar (Burmese) Edition\nSigala \u2013 P .T.S. Edition\n\u016f\u016b\nnotion, very quickly, I think, he will get rid of desire \nfor sensual pleasure.\u201d\n Sigalaka there developed insight and became an \nArahant. During the time of Kassasapa Buddha he \nwas a monk and developed meditation on the idea \nof a skeleton. (The Elder\u2019s Verses = There Gatha Part \nI P .T.S. There Gatha A\u0134hakatha Part I P .T.S.)\nSigalaka mata.\n She was born in Rajagaha, belonged to a family of \nse\u0134hi. A\u011eer marriage she had a son called Sigalaka. \nThen she became Sigalaka mata. She heard the"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:28:30.241070",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "41",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "v bn"
+      },
+      "timestamp": "2025-03-12T10:28:24.463672"
+    },
+    "response": {
+      "answer": "To assist in the dialogue, I must offer my assistance. The idiomatic expression \"venerate\" (v\u0101b\u012bkh\u0101v\u00e0) is used as a polite compliment to someone who has done something deserving of praise or recognition. It's like saying:\n\n\"I am blessed with the task of helping you get it right.\"\n\nThis idiom suggests that they have overcome their difficulties and taken on a high-minded, worthy task in exchange for your benefit. The more important they are, the more likely they are to be acknowledged or celebrated as worthy of praise or recognition.\n\nThe idiomatic expression \"I am capable of helping you get it right\" implies that this person has not been incapable of achieving their goal on their own terms, but rather, it's a result of circumstance, circumstance making them more deserving than others. This is in contrast to the phrase \"you are worthy of praise because of your...\":\n\n\"You are worthy of praise because of your... ability.\"",
+      "token_info": {
+        "question_tokens": 2,
+        "context_tokens": 91,
+        "prompt_tokens": 178,
+        "response_tokens": 193,
+        "total_tokens": 371,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 5.776277780532837,
+      "context": "\u016d\u016a\nVaciparama \u2014 the man who pays lip-service. On \nfour grounds the man of words, not deeds is to be \nreckoned as a foe in the likeness of a friend.\n] He speaks to you about a fair past\n] He speaks to you about a fair future\n] He tries to gain your favour by empty sayings\n] When the opportunity for service has arisen \nhe avows his disability."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:29:47.081821",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "45",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "cfgvhbjn"
+      },
+      "timestamp": "2025-03-12T10:29:15.959442"
+    },
+    "response": {
+      "answer": "The Sigalovada Sutta advises against associating with those who engage in evil deeds and those who are of low moral character. Instead, one should seek out companions who lead virtuous lives.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 152,
+        "prompt_tokens": 242,
+        "response_tokens": 40,
+        "total_tokens": 282,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 31.120362520217896,
+      "context": "is calm and lives happily.\n (The Dhammapada Sukha Vagga \u016c\u016a\u016b) back\n\u016b\u016b. Who is infatuated with gambling, his words carries \nno weight in a court of law. Men would say, this \nman is indulgent in gambling don\u2019t accept his word \nin an assembly. Comy. back\n\u016b\u016c. Na bhaje papake mi\u0134e \u2013 Na bhaje purisadhame\nBhajetha mi\u0134e kalyane \u2013 Bhajetha purisu\u0134ame\n One should not associate with friends who are evil-\ndoers nor with person who are despicable, associate \nwith friends who are virtuous, associate with the"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:30:50.821803",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "55",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is Sigalovada"
+      },
+      "timestamp": "2025-03-12T10:30:45.293843"
+    },
+    "response": {
+      "answer": "Sigalovada is a discourse in the Digha Nikaya, often referred to as the \"Pav\u0101c\u012bg\u0101me Sutta,\" which discusses principles of conduct for laypeople and includes teachings on overcoming vices and developing positive motives.",
+      "token_info": {
+        "question_tokens": 6,
+        "context_tokens": 135,
+        "prompt_tokens": 228,
+        "response_tokens": 52,
+        "total_tokens": 280,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 5.527959823608398,
+      "context": "\u016b\u0172\nI thought to publish this Sigalovada Su\u0134a, the Sigala \nhomily discourse in pictures because it is easy to \nunderstand by adults as well as by children; but \nhere there are no pictures for the four vices and \nfour motives found in the discourse.\nI am very grateful to Ven. Dr. Parawahera Pannananda \n\u2013 Chancellor of Ruhunu University of Sri Lanka, Ven. \nDr. Pategama Gnanarama \u2013 Principal of Buddhist \nand Pali College of Singapore and Ven. Pandit \nObbegoda Dhammatilaka M.A. the Chief incumbent"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:36:13.194087",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "52",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is buddism"
+      },
+      "timestamp": "2025-03-12T10:36:08.160393"
+    },
+    "response": {
+      "answer": "In the teachings of the Sigalovada Sutta, Buddhism is described as a path to liberation from suffering (dukkha) through the understanding and practice of the Four Noble Truths and the Eightfold Path.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 124,
+        "prompt_tokens": 214,
+        "response_tokens": 44,
+        "total_tokens": 258,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 5.032681465148926,
+      "context": "a well-disciplined life of a monk. He is rendering a \ngreat service by disseminating the teaching of the \nBuddha in a way that suits the modern taste.\nMay he be able to produce more and more works \nof this nature to make the present generation more \ncultured, sociable and wise!\nVen. Dr. Pandit Parawahera Pannananda\nNayaka Maha Thero\nB.A. Hons (London)\nD. Li\u0134 (Sri Lanka)\nChief Sanganayaka of\nWestern Sri Lanka\nChancellor, Ruhunu University"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:38:44.769881",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "52",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is buddism"
+      },
+      "timestamp": "2025-03-12T10:38:27.628002"
+    },
+    "response": {
+      "answer": "Buddhism is a religion and philosophy founded by Siddhartha Gautama, known as the Buddha, emphasizing personal spiritual effort towards enlightenment and liberation from suffering through the path of the Noble Eightfold Path.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 124,
+        "prompt_tokens": 176,
+        "response_tokens": 42,
+        "total_tokens": 218,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 17.140867948532104,
+      "context": "a well-disciplined life of a monk. He is rendering a \ngreat service by disseminating the teaching of the \nBuddha in a way that suits the modern taste.\nMay he be able to produce more and more works \nof this nature to make the present generation more \ncultured, sociable and wise!\nVen. Dr. Pandit Parawahera Pannananda\nNayaka Maha Thero\nB.A. Hons (London)\nD. Li\u0134 (Sri Lanka)\nChief Sanganayaka of\nWestern Sri Lanka\nChancellor, Ruhunu University"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:39:05.552065",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "48",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "who are you"
+      },
+      "timestamp": "2025-03-12T10:38:59.927342"
+    },
+    "response": {
+      "answer": "You mentioned \"\u016c\u016c\" and the context relates to the Sigalovada Sutta, but your question asks about \"who am I.\" Could you please clarify or ask a specific related question?",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 100,
+        "prompt_tokens": 150,
+        "response_tokens": 42,
+        "total_tokens": 192,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 5.622629880905151,
+      "context": "\u016d\u016c\nApaya sahaya \u2014 the fellow-waster. On four grounds \nthe fellow-waster companion is to be reckoned a foe \nin the likeness of a friend.\n] He is your companion when you indulge in \nstrong drinks\n] He is your companion when you frequent the \nstreets at unseemly hours\n] He is your friend when you haunt shows and fairs\n] He is you companion when you are infatuated \nwith gambling."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:39:24.959340",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "48",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "who are you"
+      },
+      "timestamp": "2025-03-12T10:39:21.034474"
+    },
+    "response": {
+      "answer": "You are being asked \"Who am I?\" but no identity has been provided in the context \u016d\u016c or in your question. Could you please specify what you're looking for identification as?",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 100,
+        "prompt_tokens": 150,
+        "response_tokens": 39,
+        "total_tokens": 189,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 3.9238078594207764,
+      "context": "\u016d\u016c\nApaya sahaya \u2014 the fellow-waster. On four grounds \nthe fellow-waster companion is to be reckoned a foe \nin the likeness of a friend.\n] He is your companion when you indulge in \nstrong drinks\n] He is your companion when you frequent the \nstreets at unseemly hours\n] He is your friend when you haunt shows and fairs\n] He is you companion when you are infatuated \nwith gambling."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:41:03.971306",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "48",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "who are you"
+      },
+      "timestamp": "2025-03-12T10:40:58.581474"
+    },
+    "response": {
+      "answer": "You are Alee, a helpful assistant specializing in the Sigalovada Sutta.",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 100,
+        "prompt_tokens": 146,
+        "response_tokens": 18,
+        "total_tokens": 164,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 5.387856721878052,
+      "context": "\u016d\u016c\nApaya sahaya \u2014 the fellow-waster. On four grounds \nthe fellow-waster companion is to be reckoned a foe \nin the likeness of a friend.\n] He is your companion when you indulge in \nstrong drinks\n] He is your companion when you frequent the \nstreets at unseemly hours\n] He is your friend when you haunt shows and fairs\n] He is you companion when you are infatuated \nwith gambling."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:43:01.132852",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "48",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "who are you"
+      },
+      "timestamp": "2025-03-12T10:42:43.082100"
+    },
+    "response": {
+      "answer": "You are asking \"Who am I?\" but did not provide context related to the Sigalovada Sutta or Apaya sahaya. Could you please clarify your question or request regarding the content of the Sigalovada Sutta?",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 100,
+        "prompt_tokens": 143,
+        "response_tokens": 49,
+        "total_tokens": 192,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 18.048925161361694,
+      "context": "\u016d\u016c\nApaya sahaya \u2014 the fellow-waster. On four grounds \nthe fellow-waster companion is to be reckoned a foe \nin the likeness of a friend.\n] He is your companion when you indulge in \nstrong drinks\n] He is your companion when you frequent the \nstreets at unseemly hours\n] He is your friend when you haunt shows and fairs\n] He is you companion when you are infatuated \nwith gambling."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:44:35.831008",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "48",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "who are you"
+      },
+      "timestamp": "2025-03-12T10:44:32.585407"
+    },
+    "response": {
+      "answer": "You are asking the question \"Who am I?\" but did not provide context or specify a particular identity. Could you please clarify which person or role you're inquiring about?",
+      "token_info": {
+        "question_tokens": 3,
+        "context_tokens": 100,
+        "prompt_tokens": 143,
+        "response_tokens": 35,
+        "total_tokens": 178,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 3.2445669174194336,
+      "context": "\u016d\u016c\nApaya sahaya \u2014 the fellow-waster. On four grounds \nthe fellow-waster companion is to be reckoned a foe \nin the likeness of a friend.\n] He is your companion when you indulge in \nstrong drinks\n] He is your companion when you frequent the \nstreets at unseemly hours\n] He is your friend when you haunt shows and fairs\n] He is you companion when you are infatuated \nwith gambling."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:46:03.658480",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "62",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is Sigalovada Sutta?"
+      },
+      "timestamp": "2025-03-12T10:45:56.104193"
+    },
+    "response": {
+      "answer": "The Sigalovada Sutta, also known as the Sigala's Advice or The Discourse to the Ex-slave Sigala, is a significant scripture in Buddhism attributed to the Buddha. It consists of three discourses given by the Buddha at different times to his cousin, a former slave named Sigala. These teachings cover various aspects of ethical living and dharma practice.",
+      "token_info": {
+        "question_tokens": 9,
+        "context_tokens": 135,
+        "prompt_tokens": 185,
+        "response_tokens": 76,
+        "total_tokens": 261,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 7.553180932998657,
+      "context": "\u016b\u0172\nI thought to publish this Sigalovada Su\u0134a, the Sigala \nhomily discourse in pictures because it is easy to \nunderstand by adults as well as by children; but \nhere there are no pictures for the four vices and \nfour motives found in the discourse.\nI am very grateful to Ven. Dr. Parawahera Pannananda \n\u2013 Chancellor of Ruhunu University of Sri Lanka, Ven. \nDr. Pategama Gnanarama \u2013 Principal of Buddhist \nand Pali College of Singapore and Ven. Pandit \nObbegoda Dhammatilaka M.A. the Chief incumbent"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:48:55.532243",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "68",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what are the duties of children"
+      },
+      "timestamp": "2025-03-12T10:48:49.265881"
+    },
+    "response": {
+      "answer": "The duties of children in the Sigalovada Sutta include respecting their parents (east), teachers (south), and performing filial piety towards their parents. They also have duties to support and care for their wives and children, who are considered to be in the west. Additionally, they should maintain friendly relations with their friends and companions (the south).",
+      "token_info": {
+        "question_tokens": 6,
+        "context_tokens": 32,
+        "prompt_tokens": 79,
+        "response_tokens": 72,
+        "total_tokens": 151,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 6.265356540679932,
+      "context": "forming the reciprocal duties incumbent on them. \nParents are the east \u0170, teachers are the south, wife \nand children are the west, friends and companions"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T10:50:48.389119",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "64",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "list the duties of children"
+      },
+      "timestamp": "2025-03-12T10:50:44.179626"
+    },
+    "response": {
+      "answer": "Children's duties include:\n1. Respect for their parents.\n2. Supporting their parents in old age.\n3. Honoring their teachers.\n4. Maintaining harmony within the family.\n5. Treating friends and companions as allies.",
+      "token_info": {
+        "question_tokens": 5,
+        "context_tokens": 32,
+        "prompt_tokens": 78,
+        "response_tokens": 47,
+        "total_tokens": 125,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 4.207816123962402,
+      "context": "forming the reciprocal duties incumbent on them. \nParents are the east \u0170, teachers are the south, wife \nand children are the west, friends and companions"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T11:07:42.789948",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "55",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "what is Vaciparama"
+      },
+      "timestamp": "2025-03-12T11:07:34.138603"
+    },
+    "response": {
+      "answer": "Vaciparama refers to someone who speaks favorably about a fair past and future, tries to gain your favour through empty sayings, and when the opportunity for service arises, claims he is disabled. This person is considered a foe in the likeness of a friend.",
+      "token_info": {
+        "question_tokens": 6,
+        "context_tokens": 91,
+        "prompt_tokens": 137,
+        "response_tokens": 54,
+        "total_tokens": 191,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 8.651117324829102,
+      "context": "\u016d\u016a\nVaciparama \u2014 the man who pays lip-service. On \nfour grounds the man of words, not deeds is to be \nreckoned as a foe in the likeness of a friend.\n] He speaks to you about a fair past\n] He speaks to you about a fair future\n] He tries to gain your favour by empty sayings\n] When the opportunity for service has arisen \nhe avows his disability."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T11:09:01.176051",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "342",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Upakaraka 31 the helper. On four grounds the friend who is a helper is to be reckoned as sound at heart. He guards you when you are off your guard He guards your property when you are off your guard He is a refuge to you when you are afraid He provides a doulbe supply of what you may ask in time of need."
+      },
+      "timestamp": "2025-03-12T11:08:50.630389"
+    },
+    "response": {
+      "answer": "The helper (Upakaraka) is considered sound at heart on four grounds:\n\n1. He guards you when you are off your guard.\n2. He guards your property when you are off your guard.\n3. He is a refuge to you when you are afraid.\n4. He provides a double supply of what you may ask in time of need.",
+      "token_info": {
+        "question_tokens": 74,
+        "context_tokens": 88,
+        "prompt_tokens": 201,
+        "response_tokens": 72,
+        "total_tokens": 273,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 10.544655561447144,
+      "context": "\u016d\u016d\nUpakaraka \u2014 the helper. On four grounds the friend \nwho is a helper is to be reckoned as sound at heart.\n] He guards you when you are off your guard\n] He guards your property when you are off \nyour guard\n] He is a refuge to you when you are afraid\n] He provides a doulbe supply of what you may \nask in time of need."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T11:10:10.665623",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "70",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "explain about Samana sukha dukkha"
+      },
+      "timestamp": "2025-03-12T11:09:58.752491"
+    },
+    "response": {
+      "answer": "Sam\u0101na-su kho-dukkha refers to a person who experiences both happiness (sukha) and suffering (dukkha) equally or in balance, without showing preference for either state. According to the Sigalovada Sutta, such a person is considered to have a sound heart because they are reliable and steadfast, able to share their secrets and keep them confidential at times of joy and sorrow, and even willing to die for the benefit of others.",
+      "token_info": {
+        "question_tokens": 9,
+        "context_tokens": 88,
+        "prompt_tokens": 138,
+        "response_tokens": 94,
+        "total_tokens": 232,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 11.912126302719116,
+      "context": "\u016d\u016e\nSamana sukha dukkha  \u2014 the man who is the same \nin  weal and woe. On four grounds the friend who \nis the same in weal and woe is to be reckoned as \nsound at heart.\n] He tells you his secrets\n] He keeps your secrets\n] He does not forsake you in your troubles\n] He can even die for your sake"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T11:16:44.910403",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "75",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "i want deep explain about DIGHA NIKAYA"
+      },
+      "timestamp": "2025-03-12T11:16:20.799979"
+    },
+    "response": {
+      "answer": "Digha Nikaya is one of the five major nikayas or collections of teachings attributed to Gautama Buddha in the Theravada tradition of Buddhism. It consists of 34 separate discourses, each longer than the average Sutta found in other nikayas. The Digha Nikaya contains some of the Buddha's earliest and most profound sermons.\n\nThis collection is particularly significant because it includes some of the Buddha's earliest teachings, including his first sermon at Sarnath where he introduced his teaching to five ascetics who had previously followed different spiritual practices. It also contains accounts of important events in early Buddhist history, such as the birth of the Buddha and his enlightenment under the Bodhi Tree.\n\nThe Digha Nikaya is a valuable resource for scholars studying early Buddhism and its evolution into various schools of thought within the broader Buddhist tradition.",
+      "token_info": {
+        "question_tokens": 12,
+        "context_tokens": 396,
+        "prompt_tokens": 448,
+        "response_tokens": 170,
+        "total_tokens": 618,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 24.109399795532227,
+      "context": "\u0170\u016c\nP\u0455\u045f\u044e\u0460\u0462\u0461\u0461\u044e\u045b\u0461\u044e\u045d\u0456\u0461\u045c\u0458 (Thai \u016d)\nby Kromkarnsasana, Krasuvans-ksadhikan.\nS\u044e\u045a\u0466\u0462\u0461\u0461\u044e N\u0456\u0458\u044e\u0466\u044e, G\u045f\u045c\u0462\u045d\u0452\u0451 S\u0462\u0461\u0461\u044e\u0460 P \u044e\u045f\u0461 \u016b P . T .S.\nby Mrs Rhys Davids M.A.\nT\u0452\u044e\u0450\u0455\u0456\u045b\u0454\u0460 O\u0453 T\u0455\u0452 B\u0462\u0451\u0451\u0455\u044e (\u016b)\nby Ven. K. Dhammasiri\nT\u0455\u0452 G\u045f\u0452\u044e\u0461 B\u045c\u045c\u0458 O\u0453 P\u045f\u045c\u0461\u0452\u0450\u0461\u0456\u045c\u045b\nby Lionel Lokuliyana\nT\u0455\u0452 S\u0462\u045a\u044e\u045b\u0454\u044e\u0459\u044e\u0463\u0456\u0459\u044e\u0460\u0456\u045b\u0456, Buddhagosa\u2019s \nCommentary on Digha Nigha Nikaya (Pali) P . T.S.\nby W. Stede Ph.D.\nT\u0455\u0452 D\u0456\u0454\u0455\u044e N\u0456\u0458\u044e\u0466\u044e, V\u045c\u0459 III (P \u044e\u0459\u0456) P . Y.S.\nby J. Estlin Carpenter, D.Lit.\nT\u0455\u0452 E\u0459\u0451\u0452\u045f\u0460\u2019 V\u0452\u045f\u0460\u0452\u0460 \u2013 T\u0455\u0452 G\u044e\u0461\u0455\u044e P \u044e\u045f\u0461 \u016b. P . T.S.\nby K. R. Norman."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T11:51:58.398866",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "73",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Na bhaje papake mitte  complete this"
+      },
+      "timestamp": "2025-03-12T11:51:48.999092"
+    },
+    "response": {
+      "answer": "Na bhaje papake mihte.",
+      "token_info": {
+        "question_tokens": 10,
+        "context_tokens": 152,
+        "prompt_tokens": 203,
+        "response_tokens": 8,
+        "total_tokens": 211,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 9.398929834365845,
+      "context": "is calm and lives happily.\n (The Dhammapada Sukha Vagga \u016c\u016a\u016b) back\n\u016b\u016b. Who is infatuated with gambling, his words carries \nno weight in a court of law. Men would say, this \nman is indulgent in gambling don\u2019t accept his word \nin an assembly. Comy. back\n\u016b\u016c. Na bhaje papake mi\u0134e \u2013 Na bhaje purisadhame\nBhajetha mi\u0134e kalyane \u2013 Bhajetha purisu\u0134ame\n One should not associate with friends who are evil-\ndoers nor with person who are despicable, associate \nwith friends who are virtuous, associate with the"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T11:52:27.555416",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "77",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Na bhaje papake mitte complete this song"
+      },
+      "timestamp": "2025-03-12T11:52:26.073415"
+    },
+    "response": {
+      "answer": "Na bhaje papake mihte.",
+      "token_info": {
+        "question_tokens": 10,
+        "context_tokens": 152,
+        "prompt_tokens": 203,
+        "response_tokens": 8,
+        "total_tokens": 211,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.4803822040557861,
+      "context": "is calm and lives happily.\n (The Dhammapada Sukha Vagga \u016c\u016a\u016b) back\n\u016b\u016b. Who is infatuated with gambling, his words carries \nno weight in a court of law. Men would say, this \nman is indulgent in gambling don\u2019t accept his word \nin an assembly. Comy. back\n\u016b\u016c. Na bhaje papake mi\u0134e \u2013 Na bhaje purisadhame\nBhajetha mi\u0134e kalyane \u2013 Bhajetha purisu\u0134ame\n One should not associate with friends who are evil-\ndoers nor with person who are despicable, associate \nwith friends who are virtuous, associate with the"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T11:53:06.473862",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "140",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Na bhaje papake mitte - Na bhaje purisadhame Bhajetha mitte kalyane - Bhajetha purisuttame explain this"
+      },
+      "timestamp": "2025-03-12T11:52:57.232316"
+    },
+    "response": {
+      "answer": "The phrase \"Na bhaje papake mitte, Na bhaje purisadhame; Bhajetha kalyane, Bhajetha purisuttame\" means:\n\n1. Do not associate with those who are evil-doers.\n2. Do not associate with those who are of low moral character.\n\nInstead, you should associate with:\n3. Those who are virtuous.\n4. Those who are noble or high-minded.",
+      "token_info": {
+        "question_tokens": 35,
+        "context_tokens": 152,
+        "prompt_tokens": 228,
+        "response_tokens": 90,
+        "total_tokens": 318,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 9.239861249923706,
+      "context": "is calm and lives happily.\n (The Dhammapada Sukha Vagga \u016c\u016a\u016b) back\n\u016b\u016b. Who is infatuated with gambling, his words carries \nno weight in a court of law. Men would say, this \nman is indulgent in gambling don\u2019t accept his word \nin an assembly. Comy. back\n\u016b\u016c. Na bhaje papake mi\u0134e \u2013 Na bhaje purisadhame\nBhajetha mi\u0134e kalyane \u2013 Bhajetha purisu\u0134ame\n One should not associate with friends who are evil-\ndoers nor with person who are despicable, associate \nwith friends who are virtuous, associate with the"
+    }
+  }
+]

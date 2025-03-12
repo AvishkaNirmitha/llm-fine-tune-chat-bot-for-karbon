@@ -100,7 +100,7 @@ def main():
         # 6. Initialize Llama with GPU support
         print("Initializing Llama 3 model...")
         llm = OllamaLLM(
-            model="llama3.1:8b",
+            model="qwen2.5:3b",
             temperature=0.3,
             model_kwargs={
                 "device": device,
