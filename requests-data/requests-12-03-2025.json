@@ -1,0 +1,306 @@
+[
+  {
+    "timestamp": "2025-03-12T12:03:29.268951",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "77",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Na bhaje papake mitte complete this song"
+      },
+      "timestamp": "2025-03-12T12:03:28.335183"
+    },
+    "response": {
+      "answer": "Na bhaje papake mitte,\nMitta pabhaajjate,\nBhajate pabhaajjate,\nYo pabhaajjate, papaka nhiyate.",
+      "token_info": {
+        "question_tokens": 10,
+        "context_tokens": 295,
+        "prompt_tokens": 346,
+        "response_tokens": 43,
+        "total_tokens": 389,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 0.9329571723937988,
+      "context": "Step 2- Make sure you have understood and agreed to the terms and privacy policy, and after checking that the \ninformation entered is correct, click on Create Account on your desktop or Continue on your mobile. \nStep 3- A verification page will pop up. Please drag the slider to complete the verification requirements. \nStep 4- Lastly, enter the verification code sent to your email inbox. \nStep 5- Mobile Phone Verification Code\n3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\n\u2022 Please try to click send verification code several times and wait. \n\u2022 Check whether it is blocked by third-party software on the mobile phone. \nStep 5- Mail Verification Code \n\u2022 Check whether it is blocked by the mail spam box. \n\u2022 Looking for help from online customer service at support@bitget.com. \nStep 6- You have successfully registered an account on Bitget. \n5.2.How to Create API Key on Bitget"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T12:04:55.979604",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "43",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "vghbjk"
+      },
+      "timestamp": "2025-03-12T12:04:53.878900"
+    },
+    "response": {
+      "answer": "It seems you haven't asked a question related to the Sigalovada Sutta. If you could rephrase your question or provide context, I'll do my best to assist you.",
+      "token_info": {
+        "question_tokens": 4,
+        "context_tokens": 262,
+        "prompt_tokens": 306,
+        "response_tokens": 38,
+        "total_tokens": 344,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.0987887382507324,
+      "context": "a security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease\nIntroduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades\nAfter creating an account on Karbon, users are able to connect their online exchanges with their new Karbon \naccount. Before connecting exchanges, the user needs to create an account on the exchange platform. exchange \nplatforms are bitget and bybit Bybit and Bitget are online exchanges where users can trade cryptocurrencies we are \nplaning to add binance exchange near future."
+    }
+  },
+  {
+    "timestamp": "2025-03-12T12:13:23.158575",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "140",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Na bhaje papake mitte - Na bhaje purisadhame Bhajetha mitte kalyane - Bhajetha purisuttame explain this"
+      },
+      "timestamp": "2025-03-12T12:13:21.271470"
+    },
+    "response": {
+      "answer": "This is a quote from the Sigalovada Sutta, a Buddhist text. It can be translated to:\n\n\"Do not reverence those who are wicked. Do reverence those who are virtuous. Reverence those who are devoted to the good, reverence those who are devoted to the noble.\"",
+      "token_info": {
+        "question_tokens": 35,
+        "context_tokens": 276,
+        "prompt_tokens": 352,
+        "response_tokens": 58,
+        "total_tokens": 410,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.8852074146270752,
+      "context": "a security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease\nEssentially, the strategy differs from the CandlePatternsMultiple strategy only by calculated indicator count and by \nthe way the list of indicators gets compiled. \nThis real body represents the price range between the open and close of that day's trading. When the real body is \nfilled in or black (also red), it means the close was lower than the open. If the real body is white (or green), the close \nwas higher than the open.\nIntroduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T12:13:48.205940",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "149",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Na bhaje papake mitte - Na bhaje purisadhame Bhajetha mitte kalyane - Bhajetha purisuttame where it include book"
+      },
+      "timestamp": "2025-03-12T12:13:46.365775"
+    },
+    "response": {
+      "answer": "The given text is a verse from the Sigalovada Sutta, a Buddhist scripture found in the Khuddaka Nikaya section of the Pali Canon.",
+      "token_info": {
+        "question_tokens": 37,
+        "context_tokens": 296,
+        "prompt_tokens": 375,
+        "response_tokens": 33,
+        "total_tokens": 408,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.839134693145752,
+      "context": "3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\nIntroduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades\na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T12:15:13.181846",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "149",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Na bhaje papake mitte - Na bhaje purisadhame Bhajetha mitte kalyane - Bhajetha purisuttame where it include book"
+      },
+      "timestamp": "2025-03-12T12:15:12.320285"
+    },
+    "response": {
+      "answer": "The given verse seems to be a part of the Sigalovada Sutta, which is a Buddhist text from the Pali Canon. The verse translation is: \n\n\"Do not worship ( bhaje ) evil waters ( papake mitte ), do not worship impure water ( Na bhaje purisadhame ). \nWorship ( Bhajetha ) pure water ( mitte kalyane ), worship ( Bhajetha ) wholesome water ( purisuttame ).\"\n\nThis verse is included in the book \"The Sigalovada Sutta\" or \"The Discourse to Sigaloka\", a famous Buddhist scripture in the Pali Canon.",
+      "token_info": {
+        "question_tokens": 37,
+        "context_tokens": 435,
+        "prompt_tokens": 513,
+        "response_tokens": 135,
+        "total_tokens": 648,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 0.8608882427215576,
+      "context": "3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\nIntroduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades\na security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\n\u201cUsers can add the IP address that was provided by the Karbon team to the API creation process to prevent other \nunauthorized IP addresses.\u201d \n \n4.5.How to Add funds to sub account \nStep 1- Go to assets using navigation bar. \nStep 2- In asset overview Click Transfer button \nStep 3- After clicking transfer you can see a popup window named transfer. \nStep 4- Select across sub account(s)(no1)"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T12:15:57.675437",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "77",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Na bhaje papake mitte complete this song"
+      },
+      "timestamp": "2025-03-12T12:15:55.690006"
+    },
+    "response": {
+      "answer": "\"Na bhaje papake mitte, upajjhiya dhamme, na tvana mitte, na tvana vade\"",
+      "token_info": {
+        "question_tokens": 10,
+        "context_tokens": 466,
+        "prompt_tokens": 517,
+        "response_tokens": 30,
+        "total_tokens": 547,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.9835131168365479,
+      "context": "Step 2- Make sure you have understood and agreed to the terms and privacy policy, and after checking that the \ninformation entered is correct, click on Create Account on your desktop or Continue on your mobile. \nStep 3- A verification page will pop up. Please drag the slider to complete the verification requirements. \nStep 4- Lastly, enter the verification code sent to your email inbox. \nStep 5- Mobile Phone Verification Code\n3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\n\u2022 Please try to click send verification code several times and wait. \n\u2022 Check whether it is blocked by third-party software on the mobile phone. \nStep 5- Mail Verification Code \n\u2022 Check whether it is blocked by the mail spam box. \n\u2022 Looking for help from online customer service at support@bitget.com. \nStep 6- You have successfully registered an account on Bitget. \n5.2.How to Create API Key on Bitget\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\n5.0.Bitget Accounts \n5.1.Create Bitget New Account \nTo create a new account on Bitget, first, you need to download the Bitget app or head to the Bitget website on a \ndesktop. You can access Bitget anytime and on multiple platforms, including iOS and Android, browser-based \nwebsites, as well as a desktop application for Mac and Windows. \n \nStep 1- click here (https://www.bitget.com/) to open Bitget \nThere are two ways to create a Bitget account: \n1. Sign up by email \n2. Sign up by phone number"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T12:16:40.856847",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "63",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Sigalaka young householder"
+      },
+      "timestamp": "2025-03-12T12:16:39.089488"
+    },
+    "response": {
+      "answer": "In the Sigalovada Sutta, Sigalaka is indeed described as a young householder.",
+      "token_info": {
+        "question_tokens": 6,
+        "context_tokens": 440,
+        "prompt_tokens": 486,
+        "response_tokens": 21,
+        "total_tokens": 507,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 1.7659146785736084,
+      "context": "often involves a dealer network. No central, physical location only a virtual network of participants. Timings 24/7. \nContracts are Customized. Counterparty risk, assets can be more volatile, and can be traded on leverage, which \nmeans there\u2019s a risk of losing more than the deposit \n \n2.0.User Types And Sign Up \nDocumentation about user Types and Sign Up to the Karbon \n \nUser Type Description \nDefault User Default user is created After the signing up process\n3.0.Home \nBrief introduction to Karbon UI \n \n3.1. Welcome Message & Links \n \n3.2.Color Theme Changing \nUsers have the option to change the site's color theme by using a toggle button. This button is conveniently located \nin the top right corner of the site, making it easily accessible. The toggle allows users to switch between yellow and \ngreen themes. \n \n3.3.Live/Paper Accounts \nUsing the 'Live Accounts' and 'Paper Accounts' links in the navigation bar, users can easily navigate to the\nStep 5- downloads google authentication app and scan the QR code given in the popup window and enter the \nauthentication code in given field in the popup window. \nStep 6- Click confirm to finish the setup\nIntroduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades\n\u201cUsers can add the IP address that was provided by the Karbon team to the API creation process to prevent other \nunauthorized IP addresses.\u201d \n \n4.5.How to Add funds to sub account \nStep 1- Go to assets using navigation bar. \nStep 2- In asset overview Click Transfer button \nStep 3- After clicking transfer you can see a popup window named transfer. \nStep 4- Select across sub account(s)(no1)"
+    }
+  },
+  {
+    "timestamp": "2025-03-12T12:21:13.241278",
+    "request": {
+      "path": "/api/messages",
+      "method": "POST",
+      "headers": {
+        "Host": "192.168.1.41:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "140",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Origin": "null",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "data": {
+        "userid": "AV",
+        "type": 1,
+        "message": "Na bhaje papake mitte - Na bhaje purisadhame Bhajetha mitte kalyane - Bhajetha purisuttame explain this"
+      },
+      "timestamp": "2025-03-12T12:21:11.188626"
+    },
+    "response": {
+      "answer": "This is a verse from the Sigalovada Sutta, a Buddhist text that describes the ethics and virtues of laypeople. \n\n\"Na bhaje papake mitte\" means \"do not associate with evil companions.\"\n\"Na bhaje purisadhame\" means \"do not associate with those who drink excessively.\"\n\"Bhajetha mitte kalyane\" means \"associate with good companions.\"\n\"Bhajetha purisuttame\" means \"associate with wise and virtuous men.\"\n\nIn essence, this verse teaches us to surround ourselves with positive and virtuous people to cultivate good habits and spiritual growth.",
+      "token_info": {
+        "question_tokens": 35,
+        "context_tokens": 463,
+        "prompt_tokens": 538,
+        "response_tokens": 127,
+        "total_tokens": 665,
+        "max_prompt_tokens": 3072,
+        "max_total_tokens": 4096
+      },
+      "timing": 2.051658868789673,
+      "context": "a security for a specific period. \nwherein each candlestick details a single day\u2019s trading. It has three essential features: \n\u2022 The body, which represents the open-to-close range \n\u2022 The wick, or shadow, that indicates the intra-day high and low \n\u2022 The color, which reveals the direction of market movement \u2013 a green (or white) body indicates a price \nincrease, while a red (or black) body shows a price decrease\nEssentially, the strategy differs from the CandlePatternsMultiple strategy only by calculated indicator count and by \nthe way the list of indicators gets compiled. \nThis real body represents the price range between the open and close of that day's trading. When the real body is \nfilled in or black (also red), it means the close was lower than the open. If the real body is white (or green), the close \nwas higher than the open.\nIntroduction \n \nWhat is Karbon? \nKarbon is an advanced trading platform designed to empower traders with cutting-edge tools, real-time market \ninsights, and seamless execution. Whether you're a beginner or an experienced investor, Karbon provides a user-\nfriendly interface, AI-driven analytics, and robust security features to enhance your trading experience. \n1.1.Purpose \nThis platform facilitates effortless trading by allowing users to establish personalized settings, thereby enabling trades\nStep 2- Make sure you have understood and agreed to the terms and privacy policy, and after checking that the \ninformation entered is correct, click on Create Account on your desktop or Continue on your mobile. \nStep 3- A verification page will pop up. Please drag the slider to complete the verification requirements. \nStep 4- Lastly, enter the verification code sent to your email inbox. \nStep 5- Mobile Phone Verification Code\nmore selling pressure than buying pressure, the candle will appear red. This indicates bearish selling pressure. When \nthe directional movement index indicator shows the same amount of buy and sell pressure, the candle will appear \nblue. This indicates neutral buy/sell pressure. 8 Use the color changes to see if there is more buying or selling to \npinpoint reversals and understand current market buying. Wait to enter or exit positions until the candles turn the \nopposite color."
+    }
+  }
+]

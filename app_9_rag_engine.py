@@ -67,7 +67,7 @@ class RAGQueryEngine:
     def setup_chain(self):
         # 1. PDF Loading
         data = []
-        loader = PyPDFLoader(r"C:\Users\Nuwan\OneDrive\Desktop\ML\Spera ML\Task16_rag\llm-fine-tune-chat-bot-for-karbon\new_ollama_integrations\Testing_PDF\sampel_1.pdf")
+        loader = PyPDFLoader(r"C:\Users\Nuwan\OneDrive\Desktop\ML\Spera ML\Task16_rag\llm-fine-tune-chat-bot-for-karbon\new_ollama_integrations\Testing_PDF\Sutta_Pittaka.pdf")
         data.extend(loader.load())
 
         # 2. Document Splitting
@@ -83,18 +83,19 @@ class RAGQueryEngine:
         self.vectorstore = Chroma.from_documents(documents=self.docs, embedding=self.embeddings)
 
         # 5. Create Retriever
-        self.retriever = self.vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3})
+        self.retriever = self.vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 5})
 
         # 6. Initialize Llama 3 through Groq
         self.llm = ChatGroq(
             temperature=0.8,
-            groq_api_key=os.getenv('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'),
+            groq_api_key=os.getenv('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'),
             model_name="llama-3.1-8b-instant"
         )
 
         # 7. Create Chain
         self.template = """
-You are a helpful assistant. Use the following karbon user guide to answer the question. Be concise and accurate. dont answer anything out of your karbon user guide.
+You a helpful AI assistant specializing in the Sutta Pittaka.
+Be concise, accurate, and give short answers.
 
 Context: {context}
 
